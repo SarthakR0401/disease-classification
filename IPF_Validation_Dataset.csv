@@ -1,0 +1,601 @@
+PatientID,Age,Sex,BMI,SmokingStatus,PackYears,FamilyHistory_ILD,OccupationalExposure,MUC5B_Variant,GERD,mMRC_Dyspnea_Scale,ChronicCough,VelcroCrackles,DigitalClubbing,FVC_mL,FVC_PercentPredicted,DLCO_PercentPredicted,FEV1_FVC_Ratio,SixMWT_Distance_m,ExertionalDesaturation,SpO2_Rest_Percent,HRCT_Pattern,PulmonaryHypertension,Emphysema_CPFE,CardiovascularDisease,KL6_U_per_mL,SPD_ng_per_mL,GAP_Stage,IPF_Severity,IPF_Diagnosis
+VAL100262,65,Male,34.4,Ex-smoker,36.2,No,Metal dust,Absent,No,4,No,Yes,No,3276,78.8,66.8,0.85,323.0,Yes,92,UIP Probable,Yes,Yes,No,574.0,29.8,I,Mild,Yes
+VAL100133,69,Male,30.4,Never smoked,0.0,Yes,Wood dust,Present,No,4,Yes,No,No,1874,41.7,89.6,0.78,135.0,No,96,Alternative Diagnosis,Yes,No,No,1429.0,47.0,Not Applicable,Not Applicable,No
+VAL100576,63,Male,19.0,Ex-smoker,42.3,Yes,Metal dust,Not tested,Yes,2,Yes,No,Yes,4297,107.9,55.8,0.84,301.0,No,91,Indeterminate for UIP,Yes,No,No,333.0,37.7,Not Applicable,Not Applicable,No
+VAL100455,80,Male,29.0,Ex-smoker,5.0,No,None,Not tested,No,2,Yes,No,Yes,2534,69.7,31.1,0.83,302.0,No,94,UIP Typical,No,No,No,734.0,35.7,III,Severe,Yes
+VAL100338,55,Male,32.7,Ex-smoker,28.3,No,None,Not tested,No,3,No,Yes,Yes,2947,71.1,65.3,0.78,408.0,Yes,94,UIP Probable,No,No,No,1212.0,65.7,I,Mild,Yes
+VAL100581,62,Female,31.6,Never smoked,0.0,No,None,Not tested,No,1,Yes,No,No,3727,100.2,74.2,0.88,347.0,No,92,UIP Probable,No,No,Yes,698.0,89.8,I,Mild,Yes
+VAL100317,64,Male,28.7,Ex-smoker,22.5,No,Livestock/Bird,Absent,No,1,Yes,Yes,No,4603,106.3,75.8,0.8,448.0,No,98,UIP Typical,No,Yes,No,1318.0,148.3,I,Mild,Yes
+VAL100440,83,Male,21.9,Never smoked,0.0,Yes,Metal dust,Absent,No,4,Yes,No,Yes,3526,85.4,37.9,0.85,223.0,Yes,92,Indeterminate for UIP,No,No,No,311.0,,II,Moderate,Yes
+VAL100054,80,Female,27.9,Ex-smoker,35.2,No,None,Not tested,No,4,Yes,Yes,Yes,3440,76.2,74.7,0.92,254.0,Yes,96,Alternative Diagnosis,No,No,Yes,637.0,46.0,Not Applicable,Not Applicable,No
+VAL100398,75,Female,34.2,Never smoked,0.0,No,None,Absent,No,3,No,Yes,No,3238,90.2,39.8,0.82,543.0,No,99,Alternative Diagnosis,No,Yes,Yes,726.0,54.1,Not Applicable,Not Applicable,No
+VAL100061,63,Male,25.6,Ex-smoker,50.9,Yes,None,Absent,No,4,No,Yes,No,3900,92.7,39.9,0.77,179.0,No,95,Alternative Diagnosis,Yes,No,No,786.0,30.3,Not Applicable,Not Applicable,No
+VAL100586,49,Male,18.0,Ex-smoker,15.3,No,None,Absent,Yes,2,Yes,No,No,3461,80.6,56.1,0.87,321.0,No,97,Alternative Diagnosis,No,No,No,338.0,126.7,Not Applicable,Not Applicable,No
+VAL100497,80,Male,29.6,Ex-smoker,17.2,No,None,Present,No,3,No,No,No,3284,82.5,81.4,0.89,418.0,No,94,Indeterminate for UIP,Yes,No,No,419.0,58.8,Not Applicable,Not Applicable,No
+VAL100273,65,Male,34.1,Ex-smoker,21.5,Yes,None,Absent,Yes,1,No,No,No,4484,106.4,68.6,0.87,420.0,No,97,UIP Probable,Yes,No,No,715.0,57.6,Not Applicable,Not Applicable,No
+VAL100279,42,Female,30.0,Ex-smoker,30.1,Yes,None,Not tested,No,4,No,Yes,No,4187,101.3,41.0,0.71,555.0,No,95,UIP Probable,Yes,Yes,Yes,782.0,38.6,I,Mild,Yes
+VAL100278,69,Male,33.4,Ex-smoker,11.0,No,Metal dust,Present,No,0,Yes,No,No,3039,74.0,40.8,0.86,254.0,No,97,Indeterminate for UIP,No,No,Yes,842.0,,Not Applicable,Not Applicable,No
+VAL100405,60,Male,28.6,Ex-smoker,14.8,No,None,Not tested,No,4,No,Yes,No,2434,64.4,37.9,0.87,239.0,No,99,Indeterminate for UIP,Yes,No,No,704.0,25.7,II,Moderate,Yes
+VAL100355,54,Male,27.8,Never smoked,0.0,No,None,Absent,No,0,Yes,No,No,2561,69.1,34.6,0.82,520.0,Yes,95,Alternative Diagnosis,Yes,No,Yes,,35.6,Not Applicable,Not Applicable,No
+VAL100370,44,Male,18.9,Never smoked,0.0,No,None,Not tested,No,2,Yes,No,No,1862,49.1,58.6,0.84,299.0,No,96,Alternative Diagnosis,No,No,No,342.0,65.4,Not Applicable,Not Applicable,No
+VAL100307,68,Female,19.8,Ex-smoker,25.0,No,None,Present,Yes,4,No,No,No,4731,102.8,47.3,0.81,303.0,Yes,93,UIP Probable,No,No,No,672.0,118.8,I,Mild,Yes
+VAL100244,82,Male,26.7,Never smoked,0.0,No,None,Absent,Yes,1,Yes,No,No,2359,51.5,64.6,0.74,497.0,No,94,UIP Typical,No,Yes,No,1081.0,27.5,II,Moderate,Yes
+VAL100539,66,Female,31.5,Ex-smoker,13.0,Yes,None,Not tested,No,0,No,No,No,3124,76.5,39.4,0.86,419.0,Yes,92,UIP Probable,No,No,No,940.0,57.2,I,Mild,Yes
+VAL100389,92,Male,30.4,Ex-smoker,14.6,No,None,Absent,Yes,4,No,Yes,Yes,3961,98.3,57.4,0.85,298.0,No,97,UIP Typical,No,No,Yes,727.0,59.2,II,Moderate,Yes
+VAL100545,69,Male,32.7,Ex-smoker,20.9,No,Wood dust,Present,Yes,0,Yes,No,Yes,2698,65.2,57.5,0.9,516.0,No,92,UIP Probable,No,No,No,496.0,,II,Moderate,Yes
+VAL100098,88,Male,34.3,Ex-smoker,21.3,No,None,Absent,Yes,2,Yes,No,No,4001,99.3,42.5,0.78,456.0,Yes,93,UIP Probable,Yes,Yes,No,280.0,21.9,Not Applicable,Not Applicable,No
+VAL100553,74,Male,33.9,Ex-smoker,11.7,No,Metal dust,Not tested,No,4,Yes,Yes,Yes,2820,76.2,57.5,0.83,243.0,Yes,97,UIP Probable,Yes,No,Yes,185.0,43.0,I,Mild,Yes
+VAL100471,73,Male,23.8,Currently smokes,15.9,No,Silica/Stone,Absent,Yes,2,Yes,No,Yes,4046,91.8,78.2,0.84,481.0,Yes,96,UIP Typical,No,No,No,532.0,53.6,I,Mild,Yes
+VAL100423,69,Male,21.0,Ex-smoker,15.1,No,None,Absent,Yes,3,Yes,No,No,3147,78.5,22.0,0.8,496.0,Yes,92,UIP Typical,No,No,No,894.0,44.3,II,Moderate,Yes
+VAL100345,68,Female,32.3,Currently smokes,16.3,No,None,Present,Yes,0,Yes,No,No,4738,130.0,81.9,0.91,388.0,No,94,Alternative Diagnosis,No,No,No,450.0,45.3,Not Applicable,Not Applicable,No
+VAL100552,66,Female,30.3,Never smoked,0.0,No,Silica/Stone,Present,Yes,3,No,No,No,3477,79.3,44.0,0.93,283.0,Yes,94,Indeterminate for UIP,Yes,No,No,374.0,17.7,Not Applicable,Not Applicable,No
+VAL100546,62,Female,24.9,Never smoked,0.0,Yes,Silica/Stone,Absent,No,0,Yes,Yes,No,3496,78.5,57.6,0.85,326.0,No,91,UIP Probable,No,No,No,852.0,65.5,Not Applicable,Not Applicable,No
+VAL100071,61,Male,29.1,Ex-smoker,5.9,No,Metal dust,Not tested,No,4,No,Yes,No,2949,67.6,60.9,0.8,299.0,Yes,94,UIP Probable,No,No,No,600.0,25.4,I,Mild,Yes
+VAL100540,57,Female,24.0,Never smoked,0.0,Yes,None,Not tested,No,1,Yes,Yes,No,4130,106.5,86.3,0.77,205.0,Yes,92,UIP Probable,No,No,Yes,521.0,105.8,Not Applicable,Not Applicable,No
+VAL100309,67,Male,29.6,Currently smokes,4.9,No,Metal dust,Not tested,Yes,2,No,Yes,No,2476,57.1,23.0,0.81,413.0,No,93,UIP Probable,No,No,No,1181.0,42.9,III,Severe,Yes
+VAL100188,73,Male,34.9,Ex-smoker,8.8,Yes,Silica/Stone,Present,Yes,0,No,Yes,No,3345,84.9,41.3,0.81,343.0,Yes,93,UIP Typical,Yes,No,Yes,666.0,40.7,II,Moderate,Yes
+VAL100599,73,Female,19.2,Currently smokes,21.2,No,None,Absent,Yes,3,No,No,No,2561,58.7,84.8,0.8,208.0,No,93,UIP Typical,No,No,Yes,303.0,54.8,Not Applicable,Not Applicable,No
+VAL100494,56,Female,27.1,Currently smokes,45.3,Yes,None,Absent,Yes,1,No,No,No,3270,82.5,63.4,0.83,287.0,,94,UIP Typical,Yes,No,Yes,536.0,,I,Mild,Yes
+VAL100292,63,Male,29.0,Never smoked,0.0,No,None,Absent,No,3,No,No,No,2923,70.7,62.2,0.76,335.0,No,96,UIP Typical,Yes,No,Yes,,65.6,Not Applicable,Not Applicable,No
+VAL100431,57,Male,33.5,Ex-smoker,26.1,No,None,Absent,No,3,Yes,No,No,2059,51.5,52.9,0.87,211.0,Yes,93,Indeterminate for UIP,Yes,Yes,Yes,614.0,61.5,Not Applicable,Not Applicable,No
+VAL100194,79,Male,31.8,Ex-smoker,26.5,No,Wood dust,Present,Yes,0,No,Yes,Yes,2572,60.1,84.7,0.82,312.0,No,92,Alternative Diagnosis,No,Yes,No,,95.6,Not Applicable,Not Applicable,No
+VAL100285,63,Male,19.8,Never smoked,0.0,No,None,Absent,Yes,2,No,No,No,2950,62.4,54.7,0.78,355.0,No,94,Indeterminate for UIP,Yes,Yes,No,429.0,31.7,Not Applicable,Not Applicable,No
+VAL100500,81,Male,23.2,Ex-smoker,24.2,No,None,Not tested,No,0,No,No,No,3978,89.0,40.8,0.76,497.0,Yes,92,Indeterminate for UIP,No,No,No,549.0,35.6,II,Moderate,Yes
+VAL100306,67,Male,27.9,Ex-smoker,50.4,No,Livestock/Bird,Absent,Yes,4,No,Yes,Yes,3284,86.4,71.2,0.77,205.0,No,92,UIP Probable,No,No,Yes,820.0,,Not Applicable,Not Applicable,No
+VAL100282,63,Male,27.0,Ex-smoker,25.8,No,None,Absent,Yes,0,Yes,No,No,3931,85.8,48.6,0.84,439.0,Yes,94,UIP Typical,Yes,No,No,304.0,27.0,I,Mild,Yes
+VAL100541,58,Male,27.5,Ex-smoker,7.5,No,Metal dust,Absent,No,0,No,No,No,3372,77.1,46.0,0.76,381.0,No,100,UIP Typical,No,No,Yes,542.0,60.3,I,Mild,Yes
+VAL100205,74,Male,32.7,Never smoked,0.0,No,None,Present,Yes,1,No,No,Yes,3870,97.0,56.1,0.78,256.0,No,97,Indeterminate for UIP,No,No,No,1050.0,26.5,I,Mild,Yes
+VAL100328,76,Female,23.9,Ex-smoker,31.7,No,None,Present,Yes,2,Yes,Yes,No,5723,110.4,68.5,0.75,364.0,No,95,Indeterminate for UIP,No,No,No,495.0,137.5,Not Applicable,Not Applicable,No
+VAL100014,81,Male,27.6,Ex-smoker,28.9,No,Metal dust,Not tested,Yes,0,Yes,Yes,No,3333,95.0,85.6,0.78,294.0,Yes,93,UIP Typical,Yes,No,No,922.0,49.3,I,Mild,Yes
+VAL100515,71,Male,24.5,Never smoked,0.0,Yes,None,Not tested,No,2,No,No,No,3304,76.9,77.6,0.78,442.0,Yes,96,Alternative Diagnosis,No,No,No,698.0,48.8,Not Applicable,Not Applicable,No
+VAL100004,59,Male,25.6,Ex-smoker,14.6,Yes,None,Not tested,Yes,3,Yes,Yes,No,2533,64.1,76.8,0.88,163.0,No,95,UIP Probable,Yes,No,No,798.0,49.5,I,Mild,Yes
+VAL100100,67,Female,19.5,Currently smokes,25.2,No,None,Not tested,No,1,No,No,No,1884,50.7,63.5,0.79,338.0,Yes,95,UIP Typical,No,No,No,1049.0,49.6,Not Applicable,Not Applicable,No
+VAL100501,59,Male,31.3,Ex-smoker,21.8,No,Metal dust,Not tested,No,2,Yes,No,Yes,2885,72.5,57.4,0.85,,Yes,95,UIP Probable,No,No,No,600.0,145.0,Not Applicable,Not Applicable,No
+VAL100236,57,Male,39.1,Ex-smoker,26.7,No,None,Not tested,No,1,No,No,Yes,3608,81.4,57.9,0.78,121.0,No,87,UIP Probable,No,No,No,440.0,,Not Applicable,Not Applicable,No
+VAL100542,53,Female,17.0,Ex-smoker,9.5,No,None,Present,No,1,No,No,No,2920,72.4,39.4,0.77,288.0,No,97,Indeterminate for UIP,No,No,No,607.0,25.9,Not Applicable,Not Applicable,No
+VAL100559,70,Female,17.8,Never smoked,0.0,No,None,Absent,Yes,4,No,Yes,No,3060,92.4,56.4,0.81,296.0,Yes,100,Alternative Diagnosis,No,No,No,675.0,62.5,Not Applicable,Not Applicable,No
+VAL100359,65,Male,26.0,Ex-smoker,7.0,No,Metal dust,Present,Yes,1,No,Yes,No,3034,85.0,51.3,0.79,322.0,Yes,98,UIP Probable,No,No,No,,55.9,Not Applicable,Not Applicable,No
+VAL100223,73,Male,16.0,Ex-smoker,5.4,No,None,Not tested,Yes,4,No,Yes,No,3821,94.6,88.2,0.81,362.0,Yes,94,UIP Probable,No,No,No,325.0,217.8,I,Mild,Yes
+VAL100053,68,Male,29.6,Never smoked,0.0,No,None,Present,No,2,Yes,No,No,3167,71.3,69.0,0.89,,No,99,UIP Probable,No,No,Yes,337.0,116.2,II,Moderate,Yes
+VAL100210,67,Male,38.0,Ex-smoker,24.6,No,Wood dust,Absent,Yes,4,Yes,No,No,3689,92.0,38.0,0.78,298.0,No,94,Indeterminate for UIP,No,Yes,No,239.0,79.9,Not Applicable,Not Applicable,No
+VAL100442,72,Female,23.9,Currently smokes,29.6,Yes,Wood dust,Present,No,3,No,Yes,Yes,2834,87.2,56.9,0.86,258.0,No,93,UIP Typical,No,Yes,No,446.0,,I,Mild,Yes
+VAL100173,71,Male,20.1,Currently smokes,8.5,No,None,Not tested,Yes,2,Yes,Yes,No,2074,52.4,53.6,0.8,225.0,No,93,UIP Typical,No,No,No,519.0,92.1,II,Moderate,Yes
+VAL100260,57,Male,18.5,Ex-smoker,10.0,No,None,Present,Yes,1,No,Yes,No,3690,90.0,71.6,0.88,479.0,No,94,Indeterminate for UIP,No,No,Yes,423.0,45.0,I,Mild,Yes
+VAL100051,75,Male,29.3,Currently smokes,14.4,No,Wood dust,Present,No,2,No,Yes,No,4037,92.4,60.3,0.92,59.0,Yes,94,UIP Probable,No,Yes,No,1252.0,100.1,Not Applicable,Not Applicable,No
+VAL100572,66,Male,24.1,Ex-smoker,19.1,No,Livestock/Bird,Present,No,0,Yes,No,No,2811,63.9,26.2,0.74,239.0,No,96,Alternative Diagnosis,No,No,No,623.0,28.2,Not Applicable,Not Applicable,No
+VAL100203,65,Female,27.8,Ex-smoker,16.3,No,None,Absent,No,1,No,No,No,2771,73.7,65.9,0.84,402.0,No,96,UIP Probable,No,Yes,No,531.0,53.6,Not Applicable,Not Applicable,No
+VAL100323,73,Male,28.8,Never smoked,0.0,Yes,Metal dust,Absent,Yes,2,Yes,No,No,4299,104.1,81.2,0.85,365.0,Yes,96,UIP Probable,No,No,No,,32.4,I,Mild,Yes
+VAL100418,65,Male,30.8,Ex-smoker,30.4,No,None,Absent,No,0,Yes,Yes,No,4385,99.5,54.5,0.85,306.0,Yes,98,UIP Typical,No,No,No,769.0,50.9,Not Applicable,Not Applicable,No
+VAL100470,68,Male,34.5,Ex-smoker,15.3,No,Metal dust,Not tested,No,3,Yes,No,No,4058,85.7,61.8,0.85,198.0,Yes,95,UIP Typical,Yes,No,Yes,726.0,62.5,I,Mild,Yes
+VAL100031,69,Male,28.4,Currently smokes,7.9,No,Metal dust,Present,No,3,Yes,Yes,Yes,2511,59.2,44.9,0.79,175.0,Yes,94,UIP Probable,No,No,No,1388.0,82.5,II,Moderate,Yes
+VAL100354,62,Female,25.4,Ex-smoker,17.3,No,None,Absent,No,0,No,No,No,3041,81.4,55.8,0.76,487.0,No,94,UIP Typical,No,No,No,332.0,37.5,I,Mild,Yes
+VAL100565,68,Male,29.8,Currently smokes,28.6,No,None,Absent,Yes,0,Yes,No,No,2620,63.2,52.4,0.81,130.0,No,93,UIP Probable,No,Yes,Yes,667.0,38.1,Not Applicable,Not Applicable,No
+VAL100352,58,Male,30.8,Never smoked,0.0,No,Metal dust,Absent,No,3,Yes,Yes,No,3023,68.4,46.4,0.85,481.0,Yes,96,Indeterminate for UIP,No,No,No,822.0,53.8,II,Moderate,Yes
+VAL100237,60,Male,22.1,Ex-smoker,12.3,No,Wood dust,Absent,Yes,4,Yes,Yes,No,3064,75.6,51.9,0.93,432.0,Yes,91,UIP Probable,Yes,No,No,275.0,88.2,Not Applicable,Not Applicable,No
+VAL100116,70,Male,25.2,Never smoked,0.0,No,None,Absent,Yes,1,No,Yes,No,3901,85.7,62.9,0.83,225.0,No,94,UIP Typical,No,No,No,480.0,45.4,I,Mild,Yes
+VAL100409,69,Female,27.9,Ex-smoker,12.8,No,None,Absent,Yes,0,No,Yes,No,2859,74.1,55.4,0.82,473.0,Yes,95,UIP Typical,No,No,No,406.0,68.0,Not Applicable,Not Applicable,No
+VAL100052,66,Male,27.2,Currently smokes,26.8,No,None,Present,No,1,No,Yes,No,3539,82.7,59.8,0.89,239.0,No,96,UIP Typical,No,No,No,425.0,19.0,Not Applicable,Not Applicable,No
+VAL100102,72,Female,28.5,Never smoked,0.0,Yes,None,Absent,Yes,2,Yes,Yes,No,4052,89.9,91.2,0.81,495.0,Yes,95,UIP Typical,No,No,No,962.0,83.5,Not Applicable,Not Applicable,No
+VAL100569,62,Female,24.6,Never smoked,0.0,No,Wood dust,Absent,Yes,4,Yes,Yes,Yes,2592,61.0,48.8,0.83,397.0,Yes,94,Indeterminate for UIP,No,No,No,995.0,90.5,I,Mild,Yes
+VAL100171,62,Male,25.0,Ex-smoker,25.9,No,None,Present,No,1,No,No,No,3510,85.0,39.2,0.8,329.0,No,94,UIP Typical,Yes,No,No,640.0,,Not Applicable,Not Applicable,No
+VAL100180,47,Male,35.3,Ex-smoker,10.1,No,None,Present,Yes,1,Yes,No,No,3223,80.1,42.8,0.8,371.0,Yes,98,Alternative Diagnosis,No,No,No,409.0,50.6,Not Applicable,Not Applicable,No
+VAL100368,75,Male,23.0,Currently smokes,9.1,No,Metal dust,Not tested,No,3,No,Yes,No,3196,71.9,64.1,0.92,349.0,No,99,UIP Typical,Yes,No,Yes,530.0,40.4,II,Moderate,Yes
+VAL100432,58,Male,24.8,Ex-smoker,12.7,No,Wood dust,Absent,No,0,No,No,Yes,3475,79.0,37.7,0.82,574.0,Yes,88,UIP Typical,No,No,No,,31.8,I,Mild,Yes
+VAL100147,69,Male,31.9,Never smoked,0.0,No,None,Absent,Yes,4,No,No,No,2416,49.6,75.1,0.8,356.0,,97,UIP Typical,No,No,No,704.0,16.7,Not Applicable,Not Applicable,No
+VAL100284,81,Male,27.6,Ex-smoker,33.3,No,None,Present,Yes,2,Yes,Yes,No,3112,71.2,92.0,0.82,474.0,Yes,94,UIP Probable,No,No,No,642.0,,II,Moderate,Yes
+VAL100385,84,Male,28.5,Ex-smoker,18.2,No,Wood dust,Absent,No,1,No,Yes,No,1788,46.8,115.2,0.71,404.0,,94,UIP Typical,No,No,Yes,626.0,52.3,II,Moderate,Yes
+VAL100480,55,Male,25.5,Ex-smoker,27.2,No,None,Present,Yes,0,Yes,No,No,3019,72.9,36.7,0.84,,Yes,99,Alternative Diagnosis,No,No,Yes,560.0,201.4,II,Moderate,Yes
+VAL100142,85,Male,30.7,Never smoked,0.0,No,Silica/Stone,Not tested,No,2,Yes,Yes,Yes,2757,68.5,61.1,0.83,418.0,No,94,Indeterminate for UIP,No,No,No,410.0,64.0,II,Moderate,Yes
+VAL100434,67,Female,26.5,Never smoked,0.0,No,None,Absent,Yes,3,Yes,No,Yes,1675,41.0,84.3,0.79,253.0,Yes,97,Indeterminate for UIP,No,No,No,364.0,37.4,I,Mild,Yes
+VAL100483,56,Male,25.6,Currently smokes,44.3,No,Silica/Stone,Absent,No,2,No,No,No,4254,87.6,52.5,0.79,298.0,Yes,94,UIP Probable,No,Yes,No,277.0,,Not Applicable,Not Applicable,No
+VAL100141,72,Female,23.6,Ex-smoker,19.4,No,Wood dust,Absent,Yes,3,Yes,Yes,No,3313,80.9,50.8,0.76,447.0,No,95,Alternative Diagnosis,Yes,Yes,No,,90.9,Not Applicable,Not Applicable,No
+VAL100056,74,Male,34.0,Never smoked,0.0,No,None,Present,Yes,0,Yes,Yes,Yes,3413,76.0,55.7,0.8,240.0,No,93,UIP Typical,No,No,No,,80.1,I,Mild,Yes
+VAL100110,69,Male,28.3,Never smoked,0.0,No,None,Not tested,Yes,3,No,Yes,No,3366,74.1,78.5,0.88,258.0,Yes,89,UIP Typical,No,No,No,428.0,70.2,II,Moderate,Yes
+VAL100337,71,Male,27.0,Ex-smoker,42.0,No,Wood dust,Absent,Yes,1,No,No,No,4115,88.8,24.0,0.84,284.0,,93,UIP Typical,No,No,Yes,461.0,15.0,Not Applicable,Not Applicable,No
+VAL100330,74,Male,31.5,Ex-smoker,41.5,No,None,Absent,Yes,4,Yes,No,Yes,2370,54.3,48.6,0.83,402.0,No,94,UIP Typical,No,No,No,332.0,39.9,II,Moderate,Yes
+VAL100221,71,Male,28.4,Ex-smoker,43.6,No,None,Present,No,4,Yes,Yes,Yes,2712,70.2,72.2,0.95,220.0,No,94,UIP Typical,No,No,No,475.0,43.6,II,Moderate,Yes
+VAL100218,78,Male,24.0,Ex-smoker,30.1,No,Metal dust,Absent,Yes,4,No,No,Yes,3142,64.5,67.4,0.77,606.0,No,95,Indeterminate for UIP,Yes,No,Yes,420.0,116.0,II,Moderate,Yes
+VAL100566,71,Male,28.5,Never smoked,0.0,No,None,Present,No,0,Yes,Yes,No,3239,72.4,39.6,0.83,337.0,No,95,Indeterminate for UIP,No,No,No,750.0,52.8,II,Moderate,Yes
+VAL100436,73,Male,29.0,Never smoked,0.0,No,None,Present,No,0,No,Yes,Yes,2441,59.8,53.9,0.78,437.0,No,94,UIP Probable,No,No,No,999.0,65.5,Not Applicable,Not Applicable,No
+VAL100347,76,Male,25.5,Ex-smoker,53.8,Yes,None,Absent,Yes,3,Yes,Yes,No,3272,79.6,69.2,0.75,523.0,,95,UIP Probable,No,No,No,319.0,59.6,Not Applicable,Not Applicable,No
+VAL100155,73,Male,28.9,Never smoked,0.0,No,None,Absent,Yes,3,Yes,Yes,No,2867,69.2,56.6,0.74,311.0,No,97,UIP Typical,No,No,No,348.0,91.9,II,Moderate,Yes
+VAL100415,61,Male,19.8,Never smoked,0.0,No,Wood dust,Not tested,No,2,Yes,Yes,No,2557,58.1,56.1,0.72,330.0,Yes,92,UIP Typical,No,No,No,524.0,28.7,I,Mild,Yes
+VAL100047,85,Male,28.8,Currently smokes,9.0,No,Metal dust,Present,No,2,No,No,No,2227,52.7,47.9,0.84,225.0,No,95,Alternative Diagnosis,Yes,Yes,No,462.0,64.2,Not Applicable,Not Applicable,No
+VAL100395,69,Male,25.5,Ex-smoker,30.4,No,Metal dust,Not tested,No,2,Yes,Yes,No,3999,95.3,70.6,0.81,325.0,Yes,96,Alternative Diagnosis,No,No,Yes,,43.3,Not Applicable,Not Applicable,No
+VAL100507,60,Male,38.5,Ex-smoker,24.9,No,Wood dust,Present,No,0,Yes,No,Yes,4151,97.2,78.6,0.82,431.0,Yes,95,UIP Probable,No,Yes,Yes,217.0,30.2,Not Applicable,Not Applicable,No
+VAL100491,67,Male,31.4,Never smoked,0.0,No,None,Absent,No,2,No,No,No,1682,37.1,64.8,0.89,,No,94,UIP Probable,No,No,No,845.0,73.6,II,Moderate,Yes
+VAL100579,72,Male,18.7,Ex-smoker,16.9,Yes,None,Absent,No,2,No,No,No,3667,90.2,42.5,0.85,319.0,No,93,Alternative Diagnosis,No,No,No,926.0,36.8,Not Applicable,Not Applicable,No
+VAL100249,67,Male,28.9,Ex-smoker,26.5,No,Wood dust,Not tested,No,2,Yes,No,Yes,3171,67.4,48.3,0.75,386.0,Yes,94,UIP Probable,No,No,No,,64.6,II,Moderate,Yes
+VAL100083,70,Female,27.8,Ex-smoker,9.1,No,Livestock/Bird,Present,No,3,No,No,No,4046,92.0,44.5,0.79,284.0,Yes,95,Alternative Diagnosis,No,No,No,450.0,33.5,I,Mild,Yes
+VAL100356,73,Male,32.4,Never smoked,0.0,Yes,None,Absent,No,4,Yes,Yes,No,3549,81.4,46.6,0.81,193.0,Yes,100,Alternative Diagnosis,No,No,No,,41.0,Not Applicable,Not Applicable,No
+VAL100024,69,Male,23.9,Ex-smoker,5.3,No,None,Present,Yes,0,Yes,No,No,3309,84.2,63.8,0.72,,Yes,97,UIP Typical,No,No,No,447.0,86.6,I,Mild,Yes
+VAL100305,69,Male,28.8,Ex-smoker,14.2,No,None,Absent,No,3,Yes,No,No,3728,94.6,43.7,0.75,580.0,Yes,91,Indeterminate for UIP,No,No,No,484.0,18.1,Not Applicable,Not Applicable,No
+VAL100272,66,Male,21.8,Never smoked,0.0,No,Wood dust,Present,No,4,No,Yes,No,3448,83.7,40.2,0.87,315.0,Yes,95,Indeterminate for UIP,No,No,No,475.0,50.8,II,Moderate,Yes
+VAL100160,70,Male,32.4,Never smoked,0.0,No,None,Absent,Yes,3,Yes,Yes,Yes,4490,98.5,39.9,0.82,442.0,No,93,Indeterminate for UIP,Yes,No,No,1399.0,86.1,Not Applicable,Not Applicable,No
+VAL100039,79,Male,21.4,Ex-smoker,16.9,No,Metal dust,Absent,No,1,No,No,No,3337,84.6,37.5,0.75,561.0,No,94,UIP Typical,No,Yes,No,,113.6,II,Moderate,Yes
+VAL100286,61,Male,33.3,Never smoked,0.0,No,None,Absent,Yes,4,Yes,No,No,2271,63.8,51.6,0.9,373.0,No,94,UIP Typical,Yes,No,No,397.0,48.0,Not Applicable,Not Applicable,No
+VAL100293,69,Male,27.1,Ex-smoker,12.7,No,None,Present,Yes,0,Yes,Yes,No,2389,58.7,68.7,0.79,548.0,No,96,UIP Probable,No,No,No,,38.4,II,Moderate,Yes
+VAL100380,64,Male,28.6,Never smoked,0.0,No,Livestock/Bird,Absent,Yes,4,No,Yes,No,2267,68.1,62.7,0.89,464.0,Yes,98,UIP Typical,No,No,Yes,1278.0,45.3,Not Applicable,Not Applicable,No
+VAL100011,74,Female,17.1,Ex-smoker,17.8,No,None,Absent,No,1,No,Yes,No,2374,63.1,49.0,0.87,344.0,Yes,95,UIP Typical,No,No,No,487.0,81.2,II,Moderate,Yes
+VAL100243,80,Female,23.1,Ex-smoker,37.1,No,Wood dust,Absent,Yes,0,Yes,Yes,No,3734,87.9,71.6,0.78,107.0,No,97,UIP Typical,No,No,No,850.0,57.1,I,Mild,Yes
+VAL100474,84,Male,25.8,Never smoked,0.0,No,None,Not tested,Yes,2,Yes,No,No,3357,80.6,53.7,0.89,413.0,No,98,UIP Probable,No,No,No,408.0,33.3,II,Moderate,Yes
+VAL100448,68,Male,21.8,Never smoked,0.0,No,Metal dust,Present,Yes,1,No,No,No,2435,60.9,68.4,0.83,489.0,Yes,94,Indeterminate for UIP,Yes,No,Yes,590.0,,II,Moderate,Yes
+VAL100033,70,Female,30.1,Ex-smoker,9.9,No,None,Not tested,No,2,Yes,No,Yes,2953,59.8,45.0,0.72,430.0,No,97,UIP Probable,No,Yes,No,353.0,55.8,Not Applicable,Not Applicable,No
+VAL100023,63,Female,27.3,Never smoked,0.0,No,None,Absent,No,1,No,Yes,Yes,3232,66.1,38.5,0.83,353.0,No,99,Indeterminate for UIP,Yes,No,No,568.0,38.2,Not Applicable,Not Applicable,No
+VAL100509,73,Male,26.8,Currently smokes,41.0,Yes,None,Absent,No,3,No,No,No,3365,73.4,40.3,0.9,190.0,No,96,UIP Typical,Yes,Yes,Yes,643.0,49.8,II,Moderate,Yes
+VAL100428,95,Male,28.9,Ex-smoker,9.0,No,None,Not tested,No,3,No,Yes,Yes,2653,63.6,63.2,0.8,384.0,Yes,98,Indeterminate for UIP,No,No,Yes,437.0,58.9,Not Applicable,Not Applicable,No
+VAL100026,66,Female,23.5,Never smoked,0.0,No,None,Absent,No,2,No,No,No,2985,71.5,50.4,0.76,426.0,Yes,97,Alternative Diagnosis,No,No,Yes,997.0,81.3,Not Applicable,Not Applicable,No
+VAL100420,69,Male,33.8,Ex-smoker,11.4,No,Metal dust,Present,Yes,0,No,Yes,No,3446,90.3,43.4,0.82,363.0,,94,UIP Typical,No,No,No,548.0,36.7,II,Moderate,Yes
+VAL100167,54,Female,19.3,Ex-smoker,15.8,No,None,Absent,Yes,0,Yes,No,No,2614,73.0,59.4,0.86,397.0,,98,Indeterminate for UIP,Yes,Yes,No,,,Not Applicable,Not Applicable,No
+VAL100531,53,Male,19.5,Ex-smoker,5.8,No,None,Absent,Yes,3,No,No,No,2839,74.3,37.2,0.71,430.0,No,95,Indeterminate for UIP,Yes,No,Yes,256.0,35.3,II,Moderate,Yes
+VAL100250,57,Male,25.8,Never smoked,0.0,No,None,Absent,No,1,Yes,Yes,No,2851,72.2,48.7,0.71,344.0,Yes,98,Indeterminate for UIP,No,No,No,310.0,55.7,II,Moderate,Yes
+VAL100454,71,Female,23.7,Never smoked,0.0,No,None,Absent,Yes,1,Yes,No,No,2757,67.4,80.4,0.86,378.0,No,92,UIP Probable,Yes,Yes,No,790.0,27.2,Not Applicable,Not Applicable,No
+VAL100143,82,Male,29.5,Never smoked,0.0,No,None,Absent,Yes,1,Yes,No,No,2751,67.2,64.0,0.77,,No,94,Indeterminate for UIP,No,No,No,950.0,38.4,II,Moderate,Yes
+VAL100271,69,Male,20.5,Never smoked,0.0,No,None,Absent,Yes,2,Yes,Yes,No,3131,84.8,40.8,0.75,499.0,No,94,UIP Probable,No,Yes,Yes,516.0,77.3,II,Moderate,Yes
+VAL100090,67,Male,23.8,Currently smokes,9.5,No,None,Absent,Yes,3,No,No,No,2885,63.7,15.0,0.82,99.0,No,93,UIP Probable,No,No,No,652.0,61.6,III,Severe,Yes
+VAL100066,78,Female,27.9,Ex-smoker,46.4,No,Silica/Stone,Absent,Yes,0,No,Yes,No,2444,60.4,89.5,0.79,457.0,Yes,92,UIP Typical,Yes,Yes,Yes,1001.0,79.8,Not Applicable,Not Applicable,No
+VAL100446,64,Male,34.3,Ex-smoker,17.1,No,None,Not tested,Yes,1,Yes,Yes,Yes,3434,84.7,42.6,0.87,233.0,No,95,UIP Typical,Yes,Yes,No,493.0,17.7,Not Applicable,Not Applicable,No
+VAL100450,66,Male,35.3,Never smoked,0.0,No,Silica/Stone,Absent,No,4,Yes,Yes,No,1836,47.8,62.0,0.76,461.0,No,94,UIP Typical,No,No,Yes,852.0,,II,Moderate,Yes
+VAL100156,67,Male,26.9,Ex-smoker,41.3,No,None,Present,No,4,No,No,No,2754,61.7,74.2,0.79,226.0,Yes,97,UIP Probable,No,No,No,759.0,,II,Moderate,Yes
+VAL100383,77,Female,38.6,Ex-smoker,8.8,No,Livestock/Bird,Absent,No,1,No,No,No,4702,105.8,88.2,0.87,,No,99,Indeterminate for UIP,No,No,No,1135.0,70.6,Not Applicable,Not Applicable,No
+VAL100452,56,Female,30.7,Ex-smoker,8.8,No,None,Absent,No,2,Yes,No,Yes,2859,68.7,66.2,0.8,375.0,,96,UIP Typical,No,No,Yes,423.0,51.1,Not Applicable,Not Applicable,No
+VAL100230,80,Male,27.3,Ex-smoker,1.8,No,Wood dust,Not tested,No,4,Yes,No,Yes,2530,75.0,67.7,0.81,270.0,,97,UIP Typical,Yes,No,Yes,225.0,47.3,II,Moderate,Yes
+VAL100593,73,Male,29.4,Ex-smoker,6.2,No,Silica/Stone,Not tested,Yes,0,Yes,No,No,3381,71.8,79.2,0.88,431.0,Yes,92,Indeterminate for UIP,No,No,No,197.0,45.9,Not Applicable,Not Applicable,No
+VAL100358,57,Male,32.0,Never smoked,0.0,No,None,Absent,Yes,2,Yes,No,No,3959,93.8,38.5,0.81,409.0,No,97,Alternative Diagnosis,Yes,Yes,No,874.0,58.5,Not Applicable,Not Applicable,No
+VAL100041,65,Female,24.4,Never smoked,0.0,No,None,Present,Yes,1,No,Yes,No,3305,86.2,85.3,0.71,361.0,Yes,94,Alternative Diagnosis,Yes,Yes,Yes,344.0,42.5,Not Applicable,Not Applicable,No
+VAL100417,63,Female,28.5,Never smoked,0.0,No,None,Absent,Yes,2,Yes,Yes,Yes,3295,82.1,72.0,0.81,234.0,No,95,UIP Probable,No,No,No,261.0,58.2,I,Mild,Yes
+VAL100193,59,Female,26.6,Never smoked,0.0,No,None,Absent,No,0,No,No,No,4707,107.1,47.3,0.73,550.0,No,92,Indeterminate for UIP,Yes,No,Yes,579.0,20.8,Not Applicable,Not Applicable,No
+VAL100246,68,Female,26.9,Never smoked,0.0,No,Silica/Stone,Present,Yes,1,Yes,No,Yes,3372,69.8,91.4,0.78,395.0,No,94,Alternative Diagnosis,No,No,No,476.0,54.4,Not Applicable,Not Applicable,No
+VAL100259,70,Male,25.2,Ex-smoker,5.6,No,None,Absent,Yes,1,No,Yes,No,2854,66.9,46.2,0.77,204.0,No,92,Indeterminate for UIP,No,No,No,507.0,113.5,Not Applicable,Not Applicable,No
+VAL100584,66,Male,33.0,Ex-smoker,14.0,Yes,None,Not tested,No,2,No,Yes,No,4856,107.7,86.2,0.92,311.0,No,98,Alternative Diagnosis,No,No,No,257.0,43.9,Not Applicable,Not Applicable,No
+VAL100430,62,Female,23.0,Never smoked,0.0,No,None,Absent,No,3,No,No,No,3283,80.2,59.7,0.79,331.0,,91,Indeterminate for UIP,No,No,Yes,348.0,88.9,Not Applicable,Not Applicable,No
+VAL100057,60,Male,30.3,Ex-smoker,7.2,No,None,Present,Yes,3,Yes,Yes,No,2731,69.4,55.3,0.75,490.0,,95,Indeterminate for UIP,No,Yes,No,490.0,43.8,I,Mild,Yes
+VAL100233,68,Male,30.3,Ex-smoker,2.9,No,None,Absent,No,1,Yes,Yes,No,4230,87.7,71.6,0.86,222.0,Yes,94,UIP Probable,No,No,No,383.0,28.3,Not Applicable,Not Applicable,No
+VAL100072,64,Male,32.1,Ex-smoker,21.6,No,None,Present,Yes,0,No,No,No,3242,72.9,57.7,0.72,293.0,No,96,Indeterminate for UIP,No,No,Yes,457.0,79.8,I,Mild,Yes
+VAL100387,70,Female,25.6,Ex-smoker,13.9,No,None,Absent,Yes,1,Yes,Yes,No,2135,47.4,80.5,0.89,307.0,Yes,94,Alternative Diagnosis,No,No,Yes,641.0,33.2,Not Applicable,Not Applicable,No
+VAL100240,71,Female,23.6,Ex-smoker,12.7,No,None,Absent,No,1,Yes,No,Yes,3174,73.4,61.3,0.86,,Yes,94,Alternative Diagnosis,Yes,Yes,Yes,347.0,20.1,Not Applicable,Not Applicable,No
+VAL100091,71,Male,27.2,Ex-smoker,27.7,Yes,None,Absent,No,0,Yes,No,Yes,1964,50.2,63.2,0.79,363.0,Yes,90,UIP Typical,No,Yes,No,259.0,35.2,II,Moderate,Yes
+VAL100290,75,Female,27.6,Ex-smoker,17.4,No,Livestock/Bird,Absent,No,2,Yes,No,No,2544,55.0,71.3,0.82,446.0,Yes,94,UIP Typical,No,Yes,Yes,549.0,67.9,Not Applicable,Not Applicable,No
+VAL100055,79,Male,32.7,Currently smokes,4.9,No,None,Absent,No,0,Yes,No,No,2550,70.2,61.2,0.9,618.0,No,97,Alternative Diagnosis,No,No,Yes,641.0,24.7,II,Moderate,Yes
+VAL100329,79,Male,22.0,Never smoked,0.0,No,None,Not tested,No,3,No,Yes,No,3124,83.6,64.0,0.83,429.0,No,97,Indeterminate for UIP,No,No,No,1089.0,100.3,I,Mild,Yes
+VAL100281,68,Male,29.1,Never smoked,0.0,No,Metal dust,Absent,Yes,2,Yes,Yes,Yes,4100,97.3,59.1,0.75,422.0,Yes,95,UIP Probable,No,No,Yes,313.0,70.8,I,Mild,Yes
+VAL100201,59,Male,22.4,Ex-smoker,37.2,No,None,Not tested,No,0,Yes,No,No,3201,80.6,53.9,0.81,373.0,No,98,Indeterminate for UIP,No,Yes,Yes,184.0,30.1,Not Applicable,Not Applicable,No
+VAL100067,61,Male,29.4,Never smoked,0.0,No,None,Absent,No,3,Yes,No,No,3778,94.1,52.5,0.85,301.0,Yes,93,Indeterminate for UIP,No,No,No,927.0,,Not Applicable,Not Applicable,No
+VAL100472,55,Female,25.2,Ex-smoker,6.0,No,None,Not tested,No,0,No,No,No,2877,68.6,91.4,0.78,462.0,Yes,98,Indeterminate for UIP,No,No,No,406.0,78.0,Not Applicable,Not Applicable,No
+VAL100189,59,Male,28.8,Ex-smoker,22.7,Yes,None,Absent,No,2,Yes,Yes,No,2455,62.5,64.5,0.79,518.0,No,92,UIP Typical,No,No,Yes,,40.2,I,Mild,Yes
+VAL100441,69,Male,25.4,Ex-smoker,16.0,No,None,Absent,No,0,No,Yes,Yes,2612,61.5,77.8,0.91,700.0,No,93,UIP Typical,No,No,No,505.0,35.0,II,Moderate,Yes
+VAL100222,62,Male,29.4,Ex-smoker,45.1,No,None,Not tested,Yes,0,Yes,Yes,Yes,5051,109.8,56.8,0.86,439.0,Yes,92,UIP Typical,No,No,Yes,616.0,51.2,I,Mild,Yes
+VAL100121,72,Female,28.0,Never smoked,0.0,No,None,Present,No,0,No,Yes,No,1907,49.7,58.8,0.85,,Yes,93,Indeterminate for UIP,No,No,No,418.0,120.6,Not Applicable,Not Applicable,No
+VAL100320,62,Male,21.8,Never smoked,0.0,No,Silica/Stone,Present,No,4,No,Yes,No,3428,84.8,39.9,0.78,363.0,Yes,99,UIP Typical,No,No,Yes,851.0,44.1,I,Mild,Yes
+VAL100550,74,Male,23.3,Ex-smoker,24.5,No,Wood dust,Absent,Yes,0,Yes,Yes,Yes,2753,67.5,84.1,0.81,76.0,,98,UIP Typical,Yes,Yes,Yes,325.0,30.8,I,Mild,Yes
+VAL100319,63,Female,32.3,Ex-smoker,37.9,No,None,Present,Yes,4,No,Yes,Yes,3448,73.8,67.5,0.77,398.0,No,98,Indeterminate for UIP,No,No,No,273.0,40.5,I,Mild,Yes
+VAL100456,66,Female,26.3,Never smoked,0.0,No,Metal dust,Absent,No,3,No,Yes,No,2482,63.7,69.9,0.87,454.0,No,98,Indeterminate for UIP,No,No,No,448.0,136.2,Not Applicable,Not Applicable,No
+VAL100498,58,Female,32.5,Ex-smoker,10.5,No,Wood dust,Absent,No,0,Yes,Yes,Yes,2995,76.1,43.6,0.86,561.0,No,95,Indeterminate for UIP,No,No,No,436.0,41.6,Not Applicable,Not Applicable,No
+VAL100519,55,Male,34.4,Ex-smoker,7.2,No,Wood dust,Not tested,Yes,2,Yes,No,No,3048,74.7,66.6,0.86,387.0,No,97,Indeterminate for UIP,Yes,No,No,421.0,18.5,Not Applicable,Not Applicable,No
+VAL100408,66,Male,22.4,Never smoked,0.0,No,Wood dust,Absent,No,2,Yes,Yes,Yes,2737,69.8,79.8,0.78,,Yes,98,Indeterminate for UIP,No,No,No,301.0,83.0,Not Applicable,Not Applicable,No
+VAL100119,70,Male,32.6,Ex-smoker,6.9,No,None,Present,No,2,No,No,Yes,3912,91.4,38.8,0.84,450.0,,100,UIP Typical,Yes,Yes,No,520.0,54.2,II,Moderate,Yes
+VAL100120,70,Male,29.7,Ex-smoker,15.6,No,None,Not tested,No,4,No,Yes,No,3728,75.6,73.2,0.82,341.0,,93,Indeterminate for UIP,No,No,No,203.0,,Not Applicable,Not Applicable,No
+VAL100304,76,Female,16.1,Never smoked,0.0,No,None,Absent,Yes,4,No,No,No,3752,95.5,69.2,0.95,382.0,No,94,UIP Probable,No,No,No,273.0,55.4,Not Applicable,Not Applicable,No
+VAL100518,67,Male,27.9,Ex-smoker,16.2,No,Metal dust,Absent,Yes,0,Yes,No,No,2603,67.8,70.8,0.72,449.0,Yes,96,Indeterminate for UIP,Yes,No,No,377.0,78.9,Not Applicable,Not Applicable,No
+VAL100301,79,Female,28.5,Ex-smoker,12.9,No,Metal dust,Absent,No,2,Yes,No,No,3518,85.0,67.6,0.8,342.0,No,94,Indeterminate for UIP,Yes,No,Yes,379.0,39.3,I,Mild,Yes
+VAL100139,70,Male,30.9,Never smoked,0.0,Yes,None,Present,Yes,3,No,Yes,No,3189,80.5,55.7,0.8,454.0,Yes,97,UIP Probable,No,No,No,1710.0,,Not Applicable,Not Applicable,No
+VAL100146,67,Male,25.2,Ex-smoker,10.3,No,None,Absent,Yes,2,Yes,No,No,3397,73.8,76.6,0.73,262.0,No,94,Indeterminate for UIP,Yes,No,Yes,557.0,44.8,Not Applicable,Not Applicable,No
+VAL100149,73,Male,25.2,Ex-smoker,14.6,No,None,Absent,No,4,Yes,No,Yes,2773,60.7,70.3,0.77,75.0,No,93,UIP Typical,No,No,No,302.0,38.4,II,Moderate,Yes
+VAL100561,71,Female,24.1,Currently smokes,18.5,No,None,Present,No,1,No,No,Yes,3974,108.1,62.4,0.79,344.0,No,95,Indeterminate for UIP,No,No,Yes,294.0,23.7,Not Applicable,Not Applicable,No
+VAL100447,65,Female,31.3,Never smoked,0.0,No,None,Present,Yes,4,No,Yes,No,2049,42.7,60.5,0.8,252.0,No,95,UIP Typical,Yes,No,No,668.0,83.6,II,Moderate,Yes
+VAL100163,77,Female,25.2,Ex-smoker,27.0,No,Metal dust,Present,Yes,0,Yes,Yes,No,3432,93.3,55.4,0.83,314.0,No,99,UIP Typical,No,Yes,No,591.0,,Not Applicable,Not Applicable,No
+VAL100412,73,Male,23.1,Ex-smoker,17.1,No,Silica/Stone,Absent,Yes,0,No,Yes,Yes,3247,84.8,28.9,0.89,396.0,No,96,UIP Probable,No,No,Yes,,42.2,Not Applicable,Not Applicable,No
+VAL100492,84,Male,29.1,Ex-smoker,28.0,No,None,Absent,No,1,No,No,No,2980,78.7,60.0,0.79,409.0,No,93,UIP Typical,No,No,Yes,687.0,125.0,II,Moderate,Yes
+VAL100468,61,Male,28.4,Never smoked,0.0,No,None,Absent,Yes,1,No,No,No,1909,44.5,59.3,0.79,233.0,No,96,Indeterminate for UIP,No,No,No,696.0,,Not Applicable,Not Applicable,No
+VAL100151,54,Female,16.0,Ex-smoker,8.9,Yes,Silica/Stone,Absent,No,0,No,No,No,2487,65.1,50.5,0.79,343.0,Yes,94,Alternative Diagnosis,No,No,Yes,417.0,31.9,Not Applicable,Not Applicable,No
+VAL100504,70,Male,26.5,Never smoked,0.0,Yes,Livestock/Bird,Not tested,No,4,Yes,No,No,4288,102.3,64.9,0.76,204.0,No,96,UIP Probable,No,Yes,No,322.0,43.2,I,Mild,Yes
+VAL100361,66,Female,26.7,Currently smokes,21.9,No,None,Not tested,Yes,3,No,No,No,3051,77.9,51.8,0.87,132.0,,94,Alternative Diagnosis,No,No,Yes,365.0,22.5,Not Applicable,Not Applicable,No
+VAL100528,40,Female,26.6,Never smoked,0.0,Yes,Wood dust,Not tested,No,3,No,Yes,No,2906,66.1,74.9,0.85,260.0,No,96,Indeterminate for UIP,No,No,No,,63.5,I,Mild,Yes
+VAL100032,72,Male,27.3,Never smoked,0.0,No,Metal dust,Present,No,2,No,No,No,3860,91.7,61.2,0.9,267.0,Yes,94,UIP Probable,No,No,No,477.0,77.0,I,Mild,Yes
+VAL100331,48,Male,23.3,Ex-smoker,28.8,No,None,Absent,No,3,Yes,Yes,No,2236,58.7,75.2,0.93,,No,96,UIP Probable,Yes,No,No,,26.0,Not Applicable,Not Applicable,No
+VAL100274,64,Male,28.1,Never smoked,0.0,No,Wood dust,Not tested,Yes,2,Yes,Yes,No,3049,70.3,84.2,0.82,231.0,Yes,97,UIP Probable,No,No,No,1158.0,29.3,Not Applicable,Not Applicable,No
+VAL100021,76,Male,18.3,Ex-smoker,32.7,Yes,None,Absent,Yes,4,Yes,No,No,3935,94.1,30.4,0.81,213.0,Yes,94,UIP Probable,No,Yes,No,988.0,63.2,Not Applicable,Not Applicable,No
+VAL100114,55,Male,21.0,Ex-smoker,48.6,No,None,Not tested,No,0,Yes,Yes,Yes,4609,114.1,72.4,0.75,481.0,No,93,UIP Probable,No,No,No,560.0,88.3,I,Mild,Yes
+VAL100589,79,Male,37.0,Currently smokes,22.0,No,Wood dust,Absent,No,0,Yes,Yes,Yes,2396,54.6,40.6,0.84,414.0,No,93,Alternative Diagnosis,No,No,No,636.0,20.1,Not Applicable,Not Applicable,No
+VAL100001,77,Male,24.6,Never smoked,0.0,No,None,Absent,Yes,1,No,Yes,Yes,2997,61.0,85.9,0.81,399.0,Yes,93,UIP Typical,No,No,Yes,1126.0,27.2,I,Mild,Yes
+VAL100396,56,Male,23.5,Currently smokes,13.5,No,None,Present,Yes,4,Yes,No,No,4562,101.0,50.0,0.82,422.0,Yes,96,UIP Typical,No,No,No,622.0,25.9,I,Mild,Yes
+VAL100314,63,Male,32.3,Ex-smoker,33.4,No,None,Present,Yes,1,Yes,No,No,3344,68.1,87.9,0.77,303.0,No,93,UIP Probable,No,Yes,No,843.0,30.5,I,Mild,Yes
+VAL100557,84,Male,25.3,Ex-smoker,27.2,No,None,Present,No,4,No,No,Yes,2931,70.6,83.3,0.82,427.0,No,93,UIP Typical,No,No,Yes,323.0,63.7,II,Moderate,Yes
+VAL100214,78,Male,27.3,Never smoked,0.0,No,None,Absent,Yes,3,Yes,Yes,No,4188,101.2,59.2,0.83,380.0,No,94,Indeterminate for UIP,No,Yes,No,562.0,18.2,I,Mild,Yes
+VAL100486,74,Male,29.5,Ex-smoker,48.9,No,None,Present,No,1,No,Yes,Yes,5071,110.4,57.5,0.92,314.0,No,89,UIP Probable,No,No,Yes,,182.7,Not Applicable,Not Applicable,No
+VAL100521,81,Male,28.3,Never smoked,0.0,No,None,Absent,Yes,2,Yes,Yes,Yes,2443,60.2,20.3,0.83,376.0,Yes,92,Indeterminate for UIP,No,No,No,619.0,62.0,III,Severe,Yes
+VAL100003,78,Male,25.2,Ex-smoker,18.7,No,Wood dust,Present,No,3,No,Yes,No,2270,57.0,25.1,0.82,358.0,Yes,95,UIP Typical,No,Yes,Yes,541.0,31.1,III,Severe,Yes
+VAL100573,62,Female,27.6,Never smoked,0.0,No,None,Absent,No,2,Yes,No,No,4449,90.5,76.0,0.71,206.0,No,93,Alternative Diagnosis,Yes,No,No,1063.0,121.9,Not Applicable,Not Applicable,No
+VAL100059,73,Male,24.9,Ex-smoker,15.0,Yes,None,Absent,No,4,No,Yes,No,2582,56.2,70.0,0.82,190.0,No,100,UIP Typical,No,No,No,930.0,39.4,II,Moderate,Yes
+VAL100544,80,Female,17.0,Currently smokes,30.8,No,Livestock/Bird,Absent,No,4,Yes,Yes,Yes,3352,72.9,73.4,0.81,353.0,Yes,96,Alternative Diagnosis,No,Yes,No,755.0,84.5,II,Moderate,Yes
+VAL100372,69,Male,25.5,Ex-smoker,5.0,No,None,Not tested,No,1,Yes,No,Yes,1253,31.4,69.1,0.89,330.0,Yes,96,UIP Typical,No,No,Yes,392.0,103.4,II,Moderate,Yes
+VAL100005,55,Male,23.8,Ex-smoker,15.7,No,Wood dust,Present,No,3,No,No,No,2612,60.4,85.1,0.79,348.0,,94,UIP Probable,No,No,Yes,,82.1,I,Mild,Yes
+VAL100257,81,Female,32.7,Never smoked,0.0,No,Wood dust,Present,No,1,No,Yes,No,2739,71.4,58.5,0.79,277.0,No,100,Indeterminate for UIP,No,Yes,No,875.0,48.0,Not Applicable,Not Applicable,No
+VAL100324,62,Female,23.1,Ex-smoker,59.4,No,None,Present,No,2,No,No,No,2235,55.4,85.0,0.86,366.0,No,95,UIP Typical,No,No,No,311.0,26.7,Not Applicable,Not Applicable,No
+VAL100075,73,Female,24.3,Ex-smoker,20.9,No,None,Absent,No,4,No,No,Yes,2291,58.0,70.3,0.88,351.0,Yes,98,Alternative Diagnosis,Yes,No,No,267.0,45.4,I,Mild,Yes
+VAL100192,66,Female,28.7,Ex-smoker,19.6,No,Silica/Stone,Not tested,No,1,No,No,Yes,3789,85.0,41.9,0.9,377.0,No,90,Indeterminate for UIP,No,No,No,709.0,39.4,I,Mild,Yes
+VAL100547,72,Male,27.8,Ex-smoker,12.7,No,None,Not tested,No,1,Yes,No,No,3331,74.4,88.9,0.71,320.0,No,92,Indeterminate for UIP,No,No,No,254.0,30.7,Not Applicable,Not Applicable,No
+VAL100598,61,Male,33.3,Ex-smoker,19.9,No,None,Present,No,4,No,Yes,Yes,3616,84.6,56.4,0.84,432.0,Yes,92,UIP Probable,No,Yes,No,723.0,37.2,I,Mild,Yes
+VAL100325,65,Female,29.1,Ex-smoker,25.0,No,Metal dust,Absent,No,1,No,Yes,Yes,2268,60.8,36.5,0.69,317.0,Yes,95,Alternative Diagnosis,No,No,Yes,,20.9,Not Applicable,Not Applicable,No
+VAL100081,66,Male,17.1,Ex-smoker,22.5,No,None,Absent,No,0,No,Yes,No,2724,68.6,48.4,0.82,314.0,Yes,96,UIP Typical,No,No,Yes,1061.0,43.7,II,Moderate,Yes
+VAL100341,72,Female,23.2,Never smoked,0.0,No,None,Absent,No,4,No,No,No,3203,74.2,81.0,0.8,315.0,No,94,UIP Typical,No,No,No,548.0,25.7,Not Applicable,Not Applicable,No
+VAL100027,66,Male,24.1,Currently smokes,20.5,No,None,Absent,Yes,0,Yes,Yes,No,2435,65.7,55.2,0.84,,Yes,100,UIP Probable,No,No,No,1259.0,172.5,Not Applicable,Not Applicable,No
+VAL100386,67,Male,30.7,Ex-smoker,50.7,No,None,Present,No,1,Yes,Yes,No,1296,30.0,61.5,0.79,345.0,No,98,UIP Typical,No,No,Yes,682.0,39.7,Not Applicable,Not Applicable,No
+VAL100217,76,Female,29.4,Never smoked,0.0,No,None,Not tested,Yes,2,Yes,No,Yes,4509,95.0,63.5,0.95,287.0,Yes,97,UIP Probable,No,No,Yes,510.0,35.7,Not Applicable,Not Applicable,No
+VAL100381,65,Male,32.3,Ex-smoker,6.9,No,Livestock/Bird,Not tested,Yes,2,Yes,No,No,2344,63.2,65.5,0.81,204.0,Yes,93,UIP Typical,Yes,No,Yes,323.0,18.7,Not Applicable,Not Applicable,No
+VAL100479,73,Male,32.5,Ex-smoker,38.9,No,None,Not tested,Yes,1,No,Yes,Yes,3737,82.3,49.9,0.81,298.0,No,94,UIP Probable,Yes,No,No,762.0,68.4,II,Moderate,Yes
+VAL100058,68,Female,25.5,Currently smokes,17.1,No,None,Present,No,2,Yes,Yes,No,4288,95.7,47.9,0.9,338.0,No,89,Indeterminate for UIP,No,No,No,379.0,68.3,Not Applicable,Not Applicable,No
+VAL100465,81,Male,27.7,Ex-smoker,13.2,No,None,Present,Yes,4,No,Yes,Yes,2738,73.4,60.2,0.74,365.0,No,93,UIP Typical,No,Yes,Yes,688.0,,II,Moderate,Yes
+VAL100109,68,Male,29.0,Ex-smoker,10.8,No,None,Present,Yes,4,Yes,No,No,3410,84.2,76.7,0.76,214.0,Yes,91,UIP Typical,No,No,Yes,591.0,46.3,Not Applicable,Not Applicable,No
+VAL100410,79,Female,32.6,Never smoked,0.0,Yes,None,Present,No,1,No,Yes,Yes,4543,106.1,47.3,0.81,314.0,No,96,UIP Probable,No,No,Yes,425.0,,I,Mild,Yes
+VAL100148,63,Female,26.3,Ex-smoker,12.4,No,None,Present,No,4,Yes,No,No,3453,90.0,47.2,0.78,365.0,No,96,Indeterminate for UIP,No,No,No,948.0,37.1,I,Mild,Yes
+VAL100229,62,Male,26.0,Ex-smoker,15.5,No,None,Absent,No,4,No,Yes,Yes,2739,68.7,31.2,0.92,401.0,No,98,Indeterminate for UIP,No,Yes,Yes,325.0,79.9,II,Moderate,Yes
+VAL100015,68,Male,24.1,Ex-smoker,5.3,No,Wood dust,Not tested,Yes,3,Yes,No,No,2056,53.8,41.6,0.76,207.0,Yes,93,UIP Typical,Yes,No,No,,23.8,II,Moderate,Yes
+VAL100175,68,Male,31.5,Never smoked,0.0,No,Wood dust,Absent,No,0,Yes,Yes,No,2905,78.3,88.8,0.68,388.0,No,94,Alternative Diagnosis,No,Yes,No,,47.9,Not Applicable,Not Applicable,No
+VAL100241,65,Female,23.6,Ex-smoker,4.3,No,None,Absent,Yes,1,No,No,No,4035,95.8,64.5,0.79,469.0,No,98,UIP Probable,No,No,No,679.0,146.6,Not Applicable,Not Applicable,No
+VAL100115,67,Female,16.8,Ex-smoker,23.1,No,None,Absent,No,3,Yes,No,No,2990,78.9,63.2,0.81,199.0,Yes,94,UIP Typical,No,Yes,No,461.0,76.4,Not Applicable,Not Applicable,No
+VAL100166,69,Male,32.7,Currently smokes,1.3,No,None,Not tested,No,3,No,Yes,Yes,2556,64.4,23.1,0.91,469.0,No,95,Alternative Diagnosis,No,No,No,328.0,53.5,III,Severe,Yes
+VAL100520,72,Female,25.6,Ex-smoker,35.6,No,Wood dust,Present,No,2,Yes,No,No,2510,65.5,40.7,0.78,94.0,No,97,UIP Typical,No,No,No,512.0,95.7,II,Moderate,Yes
+VAL100506,77,Male,25.4,Ex-smoker,42.6,No,None,Absent,Yes,4,No,Yes,Yes,2539,56.9,75.1,0.85,205.0,Yes,99,UIP Probable,No,No,Yes,350.0,131.2,II,Moderate,Yes
+VAL100060,66,Male,34.7,Currently smokes,14.2,No,None,Absent,No,1,No,No,No,3955,97.8,44.7,0.83,414.0,Yes,89,UIP Typical,No,Yes,Yes,379.0,26.8,II,Moderate,Yes
+VAL100514,70,Female,22.1,Ex-smoker,46.3,No,None,Not tested,Yes,2,No,No,No,4209,93.8,65.1,0.84,205.0,Yes,90,UIP Typical,No,No,Yes,602.0,43.1,I,Mild,Yes
+VAL100087,63,Male,24.8,Ex-smoker,22.6,No,None,Absent,No,1,Yes,No,No,2818,71.4,73.2,0.77,241.0,No,93,Indeterminate for UIP,Yes,No,No,204.0,31.1,Not Applicable,Not Applicable,No
+VAL100165,73,Male,17.3,Ex-smoker,37.9,No,Metal dust,Absent,Yes,1,Yes,Yes,No,2245,58.0,53.8,0.8,340.0,No,97,Indeterminate for UIP,No,No,No,818.0,44.1,II,Moderate,Yes
+VAL100099,72,Male,30.2,Ex-smoker,53.0,No,Silica/Stone,Not tested,Yes,0,No,No,No,3506,92.9,69.2,0.88,424.0,No,99,UIP Probable,No,No,No,408.0,35.6,Not Applicable,Not Applicable,No
+VAL100502,70,Female,23.6,Ex-smoker,15.2,No,None,Not tested,Yes,2,Yes,Yes,No,5089,110.3,81.5,0.81,,,94,UIP Typical,No,No,No,511.0,182.9,I,Mild,Yes
+VAL100169,72,Female,29.3,Currently smokes,33.2,No,None,Absent,Yes,2,No,Yes,Yes,4886,103.3,91.9,0.78,318.0,No,97,UIP Typical,No,No,No,748.0,68.0,I,Mild,Yes
+VAL100295,74,Male,30.8,Ex-smoker,12.7,No,None,Absent,No,2,Yes,Yes,No,1950,53.3,59.1,0.85,438.0,No,94,UIP Probable,No,No,Yes,419.0,75.0,Not Applicable,Not Applicable,No
+VAL100042,56,Male,26.7,Ex-smoker,22.6,No,Wood dust,Absent,Yes,4,No,Yes,No,4307,90.1,51.6,0.82,,No,96,Alternative Diagnosis,No,No,Yes,652.0,23.6,Not Applicable,Not Applicable,No
+VAL100365,65,Female,28.7,Never smoked,0.0,Yes,None,Not tested,Yes,4,No,Yes,No,3697,93.7,66.5,0.8,336.0,Yes,96,UIP Probable,No,No,Yes,529.0,63.6,Not Applicable,Not Applicable,No
+VAL100466,74,Male,24.3,Ex-smoker,9.4,No,None,Absent,No,3,No,No,No,2470,63.1,50.3,0.75,111.0,No,95,Indeterminate for UIP,Yes,No,Yes,518.0,63.3,II,Moderate,Yes
+VAL100322,74,Male,31.6,Never smoked,0.0,No,None,Present,No,4,No,No,No,3405,75.8,62.6,0.76,,Yes,96,UIP Probable,No,No,No,1121.0,53.7,I,Mild,Yes
+VAL100174,84,Male,22.3,Ex-smoker,21.4,Yes,None,Not tested,Yes,4,Yes,No,Yes,2243,58.7,60.5,0.88,243.0,No,94,UIP Typical,No,No,No,379.0,21.0,II,Moderate,Yes
+VAL100245,82,Male,28.6,Never smoked,0.0,No,None,Present,Yes,1,No,No,No,2707,73.4,82.2,0.82,203.0,No,97,UIP Typical,No,No,No,416.0,58.3,Not Applicable,Not Applicable,No
+VAL100080,67,Female,26.2,Never smoked,0.0,No,None,Not tested,No,3,No,No,No,2794,63.4,74.3,0.72,266.0,No,96,Indeterminate for UIP,No,No,No,353.0,34.4,I,Mild,Yes
+VAL100481,57,Male,28.1,Ex-smoker,22.8,No,Silica/Stone,Absent,No,0,Yes,Yes,No,3656,84.9,78.0,0.87,471.0,No,98,Indeterminate for UIP,No,No,No,732.0,64.8,I,Mild,Yes
+VAL100029,64,Female,29.3,Ex-smoker,7.6,Yes,None,Present,No,1,Yes,No,No,1714,42.6,34.4,0.9,319.0,No,97,Alternative Diagnosis,No,No,Yes,739.0,63.3,II,Moderate,Yes
+VAL100510,72,Male,23.5,Currently smokes,10.2,No,None,Absent,No,2,Yes,No,No,2873,69.6,63.2,0.78,360.0,No,90,Indeterminate for UIP,No,No,No,245.0,26.8,II,Moderate,Yes
+VAL100508,69,Male,20.7,Never smoked,0.0,No,Wood dust,Absent,Yes,4,No,Yes,No,2884,66.5,63.9,0.79,455.0,No,98,UIP Typical,Yes,No,No,405.0,,II,Moderate,Yes
+VAL100294,63,Male,25.3,Ex-smoker,13.0,No,None,Absent,No,0,Yes,No,Yes,3329,91.4,83.5,0.75,355.0,No,95,UIP Probable,Yes,Yes,Yes,348.0,63.8,Not Applicable,Not Applicable,No
+VAL100404,66,Male,30.2,Ex-smoker,32.8,No,Wood dust,Present,No,3,No,Yes,Yes,3750,89.2,64.5,0.87,124.0,No,90,UIP Probable,No,Yes,Yes,667.0,24.6,I,Mild,Yes
+VAL100302,78,Female,33.6,Ex-smoker,18.2,No,None,Absent,Yes,2,No,No,No,2404,59.1,61.4,0.77,396.0,Yes,94,Alternative Diagnosis,No,No,No,565.0,53.6,Not Applicable,Not Applicable,No
+VAL100085,69,Female,23.5,Ex-smoker,36.9,No,None,Not tested,Yes,3,No,No,No,3314,86.3,40.7,0.9,333.0,Yes,94,UIP Probable,No,No,No,590.0,62.3,I,Mild,Yes
+VAL100063,62,Male,27.2,Currently smokes,28.8,No,Metal dust,Absent,Yes,4,Yes,Yes,No,4404,100.1,68.5,0.84,333.0,No,95,Indeterminate for UIP,No,Yes,Yes,581.0,33.0,I,Mild,Yes
+VAL100596,58,Male,25.2,Ex-smoker,18.1,No,None,Absent,Yes,0,No,No,No,3725,90.2,70.7,0.72,256.0,Yes,95,UIP Probable,No,No,No,735.0,35.4,Not Applicable,Not Applicable,No
+VAL100137,47,Female,28.8,Never smoked,0.0,Yes,Livestock/Bird,Not tested,No,2,No,Yes,No,2570,62.3,74.2,0.78,194.0,Yes,97,Alternative Diagnosis,No,Yes,Yes,810.0,65.5,Not Applicable,Not Applicable,No
+VAL100112,54,Male,29.2,Ex-smoker,6.0,No,None,Absent,No,2,No,No,No,2359,53.6,17.9,0.73,,No,94,UIP Typical,No,No,No,780.0,170.8,II,Moderate,Yes
+VAL100195,56,Male,33.2,Ex-smoker,7.6,No,None,Not tested,Yes,0,Yes,Yes,No,3331,77.0,48.1,0.76,284.0,No,93,UIP Typical,Yes,No,No,,31.8,I,Mild,Yes
+VAL100371,59,Female,24.5,Ex-smoker,39.4,No,None,Not tested,Yes,0,Yes,No,Yes,3372,89.1,83.4,0.83,334.0,No,95,UIP Typical,No,Yes,No,728.0,70.6,Not Applicable,Not Applicable,No
+VAL100044,74,Male,33.6,Never smoked,0.0,Yes,None,Not tested,No,0,Yes,No,No,2126,48.4,64.7,0.69,362.0,No,96,UIP Typical,Yes,No,No,340.0,65.6,II,Moderate,Yes
+VAL100459,66,Male,18.6,Currently smokes,24.8,No,Metal dust,Absent,No,3,No,No,No,3329,73.6,78.0,0.85,246.0,No,95,UIP Probable,No,No,No,439.0,43.6,II,Moderate,Yes
+VAL100130,76,Male,26.4,Currently smokes,33.4,No,Wood dust,Not tested,No,1,No,Yes,No,3232,67.4,54.7,0.89,436.0,No,98,UIP Typical,No,No,No,487.0,88.4,Not Applicable,Not Applicable,No
+VAL100535,76,Male,31.5,Ex-smoker,14.6,No,Metal dust,Absent,No,3,No,No,No,3574,84.2,87.0,0.88,341.0,No,96,UIP Probable,No,No,No,381.0,129.3,I,Mild,Yes
+VAL100219,79,Male,29.1,Ex-smoker,2.5,No,Wood dust,Not tested,Yes,3,Yes,No,Yes,2859,67.3,40.5,0.77,390.0,No,94,Indeterminate for UIP,Yes,No,Yes,,48.9,Not Applicable,Not Applicable,No
+VAL100097,72,Male,32.7,Ex-smoker,21.7,No,None,Absent,No,3,No,No,No,3188,67.8,56.2,0.81,359.0,No,98,Indeterminate for UIP,Yes,No,No,302.0,81.1,II,Moderate,Yes
+VAL100125,71,Male,25.4,Never smoked,0.0,No,Silica/Stone,Absent,Yes,3,Yes,No,No,2895,67.8,76.3,0.72,529.0,Yes,96,Indeterminate for UIP,No,No,No,680.0,39.4,II,Moderate,Yes
+VAL100563,89,Male,26.3,Ex-smoker,12.8,Yes,None,Absent,Yes,2,Yes,No,No,3998,95.4,40.0,0.91,423.0,No,91,Alternative Diagnosis,Yes,No,No,337.0,104.7,Not Applicable,Not Applicable,No
+VAL100597,70,Male,30.7,Never smoked,0.0,No,None,Not tested,Yes,2,No,Yes,No,2234,53.7,106.8,0.75,302.0,No,98,UIP Probable,No,No,Yes,2663.0,38.1,I,Mild,Yes
+VAL100178,66,Male,30.9,Never smoked,0.0,No,Metal dust,Present,No,3,Yes,Yes,Yes,2387,60.5,60.7,0.86,439.0,No,92,Indeterminate for UIP,Yes,No,Yes,592.0,55.1,Not Applicable,Not Applicable,No
+VAL100340,58,Female,26.2,Never smoked,0.0,No,None,Present,Yes,1,No,Yes,No,3334,82.0,82.9,0.87,446.0,No,96,UIP Probable,No,No,No,250.0,79.9,Not Applicable,Not Applicable,No
+VAL100575,68,Male,27.5,Ex-smoker,25.7,No,Livestock/Bird,Absent,No,0,Yes,No,No,4336,101.1,39.1,0.8,361.0,Yes,97,Alternative Diagnosis,Yes,No,No,561.0,83.9,Not Applicable,Not Applicable,No
+VAL100562,65,Male,20.1,Ex-smoker,13.4,No,Metal dust,Absent,No,4,Yes,Yes,No,2151,57.8,66.5,0.83,267.0,No,98,Alternative Diagnosis,No,No,No,492.0,,Not Applicable,Not Applicable,No
+VAL100104,68,Male,24.7,Ex-smoker,6.1,No,Silica/Stone,Present,No,3,Yes,No,No,3581,83.0,65.9,0.73,378.0,Yes,96,UIP Probable,No,No,No,364.0,97.4,I,Mild,Yes
+VAL100082,75,Female,32.5,Ex-smoker,6.9,No,None,Absent,Yes,2,No,No,No,4596,110.4,51.1,0.9,467.0,No,97,Alternative Diagnosis,No,No,Yes,293.0,40.7,Not Applicable,Not Applicable,No
+VAL100334,76,Male,27.2,Ex-smoker,60.8,No,None,Present,Yes,4,Yes,Yes,Yes,3490,79.6,66.6,0.87,444.0,Yes,95,Indeterminate for UIP,No,No,No,700.0,47.6,Not Applicable,Not Applicable,No
+VAL100344,69,Female,20.7,Never smoked,0.0,No,Metal dust,Not tested,No,1,Yes,Yes,No,4448,104.4,68.7,0.82,288.0,No,97,Indeterminate for UIP,No,Yes,No,,42.5,Not Applicable,Not Applicable,No
+VAL100265,62,Male,30.7,Ex-smoker,22.2,No,None,Present,Yes,2,No,Yes,No,3217,96.2,75.0,0.74,181.0,No,99,Alternative Diagnosis,Yes,No,Yes,722.0,78.9,Not Applicable,Not Applicable,No
+VAL100402,67,Male,31.5,Ex-smoker,21.0,No,Wood dust,Absent,No,0,No,Yes,Yes,2895,67.8,48.5,0.88,538.0,Yes,94,UIP Typical,No,No,Yes,1287.0,43.5,II,Moderate,Yes
+VAL100228,74,Male,37.1,Currently smokes,18.1,No,None,Absent,No,4,Yes,No,Yes,2399,64.7,53.3,0.83,145.0,No,96,Alternative Diagnosis,Yes,No,Yes,668.0,50.0,Not Applicable,Not Applicable,No
+VAL100276,66,Female,16.0,Ex-smoker,33.2,No,Livestock/Bird,Not tested,No,2,No,Yes,No,3444,84.5,64.0,0.76,383.0,,92,UIP Probable,No,No,No,1138.0,28.8,Not Applicable,Not Applicable,No
+VAL100376,84,Male,30.4,Ex-smoker,14.0,No,None,Not tested,No,2,Yes,No,No,2629,75.2,93.0,0.79,244.0,Yes,93,Alternative Diagnosis,No,Yes,No,962.0,39.0,Not Applicable,Not Applicable,No
+VAL100264,77,Female,22.4,Ex-smoker,4.5,No,None,Not tested,No,4,Yes,No,Yes,5841,116.8,57.4,0.86,562.0,No,92,UIP Probable,No,No,No,2371.0,88.5,I,Mild,Yes
+VAL100533,63,Female,26.8,Never smoked,0.0,No,Wood dust,Not tested,No,0,Yes,Yes,No,1555,41.0,53.4,0.85,573.0,Yes,98,UIP Probable,No,No,No,663.0,59.4,II,Moderate,Yes
+VAL100254,64,Male,30.3,Never smoked,0.0,No,None,Present,No,2,Yes,No,Yes,2909,73.6,49.9,0.8,421.0,No,97,Indeterminate for UIP,No,Yes,Yes,552.0,17.6,Not Applicable,Not Applicable,No
+VAL100172,66,Male,29.8,Ex-smoker,44.3,No,None,Present,Yes,2,No,No,No,5122,101.7,40.2,0.76,189.0,No,95,UIP Probable,No,No,No,806.0,38.2,Not Applicable,Not Applicable,No
+VAL100238,52,Female,21.7,Ex-smoker,40.6,Yes,Metal dust,Absent,No,3,No,No,No,3062,88.0,62.7,0.77,310.0,No,97,UIP Typical,No,No,No,416.0,57.5,Not Applicable,Not Applicable,No
+VAL100382,74,Male,23.1,Never smoked,0.0,No,None,Absent,Yes,1,Yes,Yes,No,3368,82.6,65.2,0.79,562.0,No,94,Indeterminate for UIP,No,No,No,677.0,42.4,Not Applicable,Not Applicable,No
+VAL100140,77,Female,20.6,Ex-smoker,26.4,Yes,None,Present,Yes,2,Yes,Yes,No,3305,75.6,66.3,0.85,318.0,No,99,Indeterminate for UIP,No,No,No,717.0,140.7,Not Applicable,Not Applicable,No
+VAL100268,69,Male,35.2,Ex-smoker,26.6,Yes,None,Absent,No,1,No,Yes,No,4486,100.3,59.1,0.92,385.0,Yes,97,UIP Probable,No,No,No,809.0,35.8,I,Mild,Yes
+VAL100591,73,Female,31.3,Never smoked,0.0,No,None,Absent,No,2,Yes,No,Yes,3910,79.3,53.5,0.72,552.0,No,97,Alternative Diagnosis,Yes,No,No,853.0,197.5,I,Mild,Yes
+VAL100360,64,Female,27.7,Ex-smoker,19.7,No,None,Not tested,Yes,0,Yes,No,Yes,2652,63.7,82.1,0.84,222.0,Yes,94,UIP Typical,Yes,No,No,316.0,55.2,Not Applicable,Not Applicable,No
+VAL100213,67,Male,23.2,Ex-smoker,6.1,No,None,Absent,Yes,2,Yes,Yes,No,4021,106.4,58.1,0.79,386.0,No,99,UIP Probable,No,No,No,724.0,33.1,Not Applicable,Not Applicable,No
+VAL100199,63,Male,16.6,Never smoked,0.0,No,Wood dust,Present,No,3,No,No,No,2747,60.9,65.8,0.82,510.0,Yes,97,UIP Typical,Yes,No,No,412.0,37.2,Not Applicable,Not Applicable,No
+VAL100384,95,Female,20.5,Never smoked,0.0,No,Silica/Stone,Absent,Yes,4,Yes,Yes,No,3115,73.3,82.3,0.82,347.0,No,90,Alternative Diagnosis,No,No,No,264.0,60.1,Not Applicable,Not Applicable,No
+VAL100016,75,Male,29.9,Ex-smoker,9.1,No,None,Present,Yes,0,Yes,Yes,Yes,3173,70.2,42.2,0.88,422.0,No,95,Indeterminate for UIP,No,No,No,309.0,35.6,II,Moderate,Yes
+VAL100164,70,Male,28.4,Never smoked,0.0,No,None,Absent,No,1,No,No,No,2846,69.4,56.0,0.92,409.0,No,97,UIP Typical,No,No,Yes,437.0,48.1,Not Applicable,Not Applicable,No
+VAL100424,66,Female,17.7,Ex-smoker,17.5,No,None,Present,No,3,No,No,No,3216,72.6,89.4,0.83,415.0,No,95,UIP Probable,No,No,Yes,288.0,26.6,I,Mild,Yes
+VAL100391,72,Female,28.0,Ex-smoker,3.4,No,None,Present,No,3,No,Yes,No,2757,59.9,54.4,0.78,420.0,No,95,UIP Probable,No,No,No,668.0,77.0,II,Moderate,Yes
+VAL100499,77,Female,22.0,Never smoked,0.0,No,None,Absent,Yes,2,Yes,Yes,No,2865,70.6,51.6,0.83,427.0,,94,Alternative Diagnosis,No,No,No,606.0,210.6,II,Moderate,Yes
+VAL100038,59,Female,23.4,Ex-smoker,14.0,No,None,Present,Yes,3,No,No,No,2922,67.5,15.6,0.79,373.0,Yes,94,Alternative Diagnosis,No,No,No,587.0,94.8,II,Moderate,Yes
+VAL100505,61,Female,24.6,Never smoked,0.0,No,None,Absent,No,1,No,Yes,Yes,3732,83.4,36.9,0.89,,No,95,Alternative Diagnosis,Yes,Yes,No,637.0,36.2,Not Applicable,Not Applicable,No
+VAL100207,66,Female,31.1,Ex-smoker,3.4,No,None,Absent,No,0,No,No,No,2151,47.4,58.3,0.79,523.0,Yes,95,UIP Probable,No,No,No,533.0,108.4,II,Moderate,Yes
+VAL100296,72,Female,25.6,Ex-smoker,44.0,No,Silica/Stone,Absent,Yes,3,Yes,No,No,3953,93.3,34.4,0.68,454.0,Yes,95,Indeterminate for UIP,No,No,No,733.0,27.3,Not Applicable,Not Applicable,No
+VAL100427,67,Male,17.9,Ex-smoker,23.9,Yes,Livestock/Bird,Not tested,Yes,3,No,Yes,No,3142,74.3,67.3,0.83,277.0,No,96,UIP Typical,No,No,Yes,820.0,50.4,Not Applicable,Not Applicable,No
+VAL100074,69,Female,32.0,Never smoked,0.0,No,None,Present,Yes,0,No,Yes,No,3291,81.1,68.0,0.81,329.0,Yes,93,Indeterminate for UIP,Yes,No,Yes,507.0,30.6,Not Applicable,Not Applicable,No
+VAL100379,62,Female,24.1,Ex-smoker,27.1,Yes,Wood dust,Not tested,No,1,Yes,Yes,Yes,3627,82.3,79.3,0.91,342.0,No,93,UIP Typical,No,No,Yes,452.0,,I,Mild,Yes
+VAL100105,65,Female,19.0,Never smoked,0.0,No,None,Present,No,2,No,No,Yes,3284,74.5,74.1,0.91,385.0,Yes,98,Alternative Diagnosis,No,No,No,1275.0,82.7,Not Applicable,Not Applicable,No
+VAL100327,53,Male,16.9,Ex-smoker,9.2,No,Metal dust,Present,No,0,Yes,No,Yes,2919,68.8,69.3,0.89,325.0,No,96,UIP Probable,No,No,Yes,431.0,52.5,Not Applicable,Not Applicable,No
+VAL100017,56,Female,25.7,Ex-smoker,18.7,No,None,Present,Yes,0,Yes,No,Yes,4210,94.5,61.5,0.73,482.0,Yes,94,Alternative Diagnosis,No,Yes,No,824.0,48.6,Not Applicable,Not Applicable,No
+VAL100092,61,Male,24.9,Ex-smoker,38.5,No,None,Present,Yes,0,Yes,Yes,No,4513,90.8,63.4,0.76,409.0,Yes,95,UIP Probable,No,No,Yes,296.0,24.6,Not Applicable,Not Applicable,No
+VAL100089,76,Male,25.6,Currently smokes,12.2,Yes,None,Absent,Yes,0,Yes,No,Yes,4255,97.4,57.4,0.8,454.0,Yes,92,Indeterminate for UIP,No,No,No,392.0,65.8,Not Applicable,Not Applicable,No
+VAL100437,59,Male,24.5,Ex-smoker,10.2,No,None,Present,Yes,3,No,Yes,No,4262,85.9,58.8,0.86,258.0,Yes,99,Alternative Diagnosis,No,Yes,No,480.0,70.9,Not Applicable,Not Applicable,No
+VAL100206,61,Male,24.5,Ex-smoker,16.8,No,None,Absent,Yes,0,Yes,Yes,No,2312,49.9,34.9,0.87,390.0,No,96,Indeterminate for UIP,No,Yes,Yes,1183.0,32.8,Not Applicable,Not Applicable,No
+VAL100103,45,Male,20.2,Ex-smoker,19.5,No,Metal dust,Absent,Yes,1,No,Yes,No,3273,80.5,88.2,0.83,387.0,Yes,96,Indeterminate for UIP,No,Yes,Yes,425.0,,Not Applicable,Not Applicable,No
+VAL100239,72,Male,27.3,Ex-smoker,22.1,No,None,Not tested,Yes,0,No,Yes,No,1771,48.3,41.7,0.89,443.0,Yes,97,Indeterminate for UIP,No,Yes,Yes,483.0,48.7,III,Severe,Yes
+VAL100549,75,Female,28.6,Never smoked,0.0,No,None,Absent,Yes,0,Yes,Yes,No,3440,89.2,74.3,0.84,610.0,No,95,Indeterminate for UIP,No,No,No,515.0,45.4,Not Applicable,Not Applicable,No
+VAL100247,69,Male,32.5,Ex-smoker,39.5,No,None,Present,No,3,No,No,No,2700,64.9,59.2,0.79,320.0,No,93,UIP Typical,Yes,Yes,No,823.0,65.1,II,Moderate,Yes
+VAL100158,76,Male,29.2,Ex-smoker,7.4,No,None,Not tested,No,4,Yes,No,No,3543,89.3,67.4,0.76,471.0,,95,UIP Probable,No,No,No,411.0,70.3,Not Applicable,Not Applicable,No
+VAL100134,42,Male,31.5,Ex-smoker,25.7,No,None,Not tested,No,0,Yes,Yes,Yes,2687,70.4,72.4,0.83,351.0,No,93,Alternative Diagnosis,No,No,No,651.0,,Not Applicable,Not Applicable,No
+VAL100388,78,Male,32.1,Ex-smoker,33.7,Yes,None,Absent,Yes,4,No,No,No,3880,101.4,59.9,0.97,428.0,Yes,91,Alternative Diagnosis,Yes,No,No,,74.7,Not Applicable,Not Applicable,No
+VAL100406,64,Female,31.8,Never smoked,0.0,No,Metal dust,Absent,No,3,Yes,Yes,No,3691,94.2,63.5,0.81,286.0,Yes,99,UIP Typical,No,No,No,517.0,,Not Applicable,Not Applicable,No
+VAL100019,56,Female,28.4,Never smoked,0.0,No,None,Present,No,2,No,No,No,2306,54.8,92.6,0.83,258.0,No,92,UIP Probable,Yes,No,No,384.0,86.5,Not Applicable,Not Applicable,No
+VAL100462,62,Female,29.8,Ex-smoker,3.1,No,None,Present,No,1,Yes,Yes,Yes,3293,82.0,82.0,0.8,454.0,No,95,Alternative Diagnosis,Yes,Yes,No,461.0,78.8,Not Applicable,Not Applicable,No
+VAL100478,78,Male,27.4,Ex-smoker,4.3,No,None,Not tested,Yes,1,Yes,Yes,No,4775,112.8,71.3,0.81,572.0,Yes,95,UIP Typical,No,No,Yes,758.0,40.3,Not Applicable,Not Applicable,No
+VAL100343,58,Female,29.0,Currently smokes,19.4,No,None,Absent,No,4,Yes,Yes,No,3368,94.6,60.0,0.85,287.0,Yes,96,UIP Typical,Yes,No,Yes,783.0,38.9,I,Mild,Yes
+VAL100275,86,Male,27.0,Ex-smoker,10.6,No,Silica/Stone,Absent,No,2,No,Yes,No,2675,67.7,84.4,0.82,411.0,Yes,95,Indeterminate for UIP,No,No,No,1324.0,68.0,II,Moderate,Yes
+VAL100451,85,Male,24.1,Ex-smoker,10.6,No,Livestock/Bird,Absent,Yes,4,Yes,No,No,3949,82.8,27.3,0.92,399.0,Yes,94,UIP Probable,No,No,No,321.0,29.0,III,Severe,Yes
+VAL100529,51,Female,25.1,Ex-smoker,12.8,No,None,Not tested,Yes,3,No,Yes,No,4390,92.3,57.0,0.79,312.0,Yes,95,Indeterminate for UIP,No,No,No,524.0,,I,Mild,Yes
+VAL100312,62,Male,28.9,Ex-smoker,14.8,No,Metal dust,Absent,No,2,Yes,Yes,Yes,4397,98.2,66.2,0.73,304.0,Yes,95,UIP Typical,No,No,No,371.0,41.0,I,Mild,Yes
+VAL100393,79,Female,28.1,Ex-smoker,4.6,No,None,Absent,Yes,1,Yes,No,No,3128,77.5,87.4,0.85,381.0,No,95,UIP Probable,No,No,Yes,844.0,82.9,Not Applicable,Not Applicable,No
+VAL100564,72,Male,34.4,Never smoked,0.0,No,Metal dust,Present,Yes,2,No,No,No,2018,46.3,49.1,0.82,239.0,No,97,UIP Probable,No,No,No,488.0,95.9,Not Applicable,Not Applicable,No
+VAL100269,63,Female,27.0,Ex-smoker,31.8,No,None,Present,No,3,No,No,Yes,2926,76.7,69.5,0.82,258.0,No,98,Alternative Diagnosis,Yes,No,No,368.0,43.7,Not Applicable,Not Applicable,No
+VAL100035,62,Male,23.4,Ex-smoker,7.8,No,None,Present,Yes,0,No,No,No,1856,60.5,70.1,0.83,280.0,No,94,Indeterminate for UIP,Yes,No,No,738.0,46.5,Not Applicable,Not Applicable,No
+VAL100182,71,Female,31.3,Ex-smoker,5.8,No,None,Not tested,Yes,1,Yes,No,Yes,3426,73.7,51.2,0.73,378.0,Yes,94,UIP Typical,Yes,No,Yes,496.0,47.9,Not Applicable,Not Applicable,No
+VAL100185,65,Female,26.9,Ex-smoker,25.8,No,None,Absent,No,4,Yes,Yes,Yes,4069,101.5,67.2,0.87,84.0,No,95,UIP Typical,No,No,No,840.0,63.6,I,Mild,Yes
+VAL100208,76,Male,29.3,Never smoked,0.0,No,None,Absent,No,1,Yes,No,No,3413,77.6,51.4,0.69,367.0,Yes,99,Indeterminate for UIP,No,No,No,783.0,57.2,Not Applicable,Not Applicable,No
+VAL100095,56,Male,21.6,Never smoked,0.0,No,Silica/Stone,Absent,Yes,0,No,Yes,Yes,3061,64.9,56.1,0.82,278.0,Yes,90,UIP Typical,No,No,Yes,529.0,92.6,I,Mild,Yes
+VAL100512,52,Female,34.1,Ex-smoker,16.5,No,None,Absent,Yes,0,Yes,Yes,No,3891,105.3,65.2,0.8,331.0,No,91,UIP Typical,No,No,No,705.0,28.3,Not Applicable,Not Applicable,No
+VAL100407,87,Female,18.4,Ex-smoker,20.5,No,None,Absent,No,2,No,No,No,1874,46.9,44.5,0.85,172.0,No,92,UIP Probable,No,No,Yes,433.0,168.8,III,Severe,Yes
+VAL100123,52,Male,32.0,Ex-smoker,4.5,No,None,Absent,Yes,1,Yes,Yes,No,3203,69.6,84.6,0.79,254.0,Yes,97,Indeterminate for UIP,No,Yes,Yes,1252.0,77.0,I,Mild,Yes
+VAL100460,70,Male,30.9,Ex-smoker,22.7,Yes,Metal dust,Present,Yes,1,Yes,No,No,1491,35.4,76.2,0.95,504.0,Yes,95,UIP Typical,Yes,No,No,209.0,72.2,II,Moderate,Yes
+VAL100079,63,Female,27.7,Ex-smoker,6.8,Yes,Livestock/Bird,Present,Yes,4,No,No,No,1772,43.8,53.0,0.75,355.0,No,97,UIP Typical,No,No,No,725.0,23.9,II,Moderate,Yes
+VAL100351,62,Male,27.6,Never smoked,0.0,No,None,Present,Yes,0,Yes,Yes,Yes,3159,72.8,57.2,0.85,653.0,Yes,91,UIP Probable,No,No,No,251.0,,Not Applicable,Not Applicable,No
+VAL100062,61,Male,23.1,Ex-smoker,9.1,No,None,Absent,Yes,3,No,No,No,1601,37.7,66.2,0.87,385.0,No,97,UIP Probable,No,No,No,647.0,47.0,Not Applicable,Not Applicable,No
+VAL100252,75,Male,33.7,Ex-smoker,19.5,No,None,Present,Yes,0,No,Yes,No,2217,57.4,66.7,0.86,517.0,No,95,Indeterminate for UIP,No,No,No,163.0,24.8,Not Applicable,Not Applicable,No
+VAL100126,60,Male,31.4,Never smoked,0.0,No,Wood dust,Present,No,0,No,Yes,No,1791,48.7,23.3,0.72,449.0,,95,UIP Typical,Yes,Yes,Yes,675.0,38.5,III,Severe,Yes
+VAL100429,71,Male,28.9,Ex-smoker,25.4,No,Metal dust,Not tested,Yes,1,Yes,No,No,2695,63.9,59.2,0.93,272.0,Yes,94,Alternative Diagnosis,No,No,No,878.0,27.7,Not Applicable,Not Applicable,No
+VAL100426,70,Male,26.4,Ex-smoker,34.9,No,None,Not tested,No,1,No,Yes,No,3598,90.7,50.0,0.79,292.0,No,90,UIP Typical,No,No,No,456.0,39.0,II,Moderate,Yes
+VAL100590,65,Male,26.0,Never smoked,0.0,No,None,Present,No,0,Yes,No,Yes,4026,95.5,51.2,0.88,458.0,,90,UIP Typical,No,No,Yes,723.0,60.0,II,Moderate,Yes
+VAL100348,65,Male,28.6,Never smoked,0.0,No,None,Present,Yes,3,No,No,No,2605,64.4,73.5,0.9,304.0,No,97,UIP Typical,No,No,No,1054.0,185.8,II,Moderate,Yes
+VAL100473,59,Male,24.5,Never smoked,0.0,No,None,Present,Yes,2,Yes,No,No,2860,67.8,61.0,0.83,126.0,No,100,Alternative Diagnosis,No,No,No,615.0,57.4,Not Applicable,Not Applicable,No
+VAL100543,83,Male,24.2,Ex-smoker,3.6,No,None,Absent,Yes,1,Yes,Yes,No,5667,130.0,56.6,0.77,396.0,No,94,UIP Probable,No,No,No,638.0,101.9,Not Applicable,Not Applicable,No
+VAL100378,65,Male,24.0,Ex-smoker,22.4,No,None,Present,No,2,No,Yes,No,3613,81.9,41.4,0.97,370.0,Yes,91,UIP Typical,No,No,Yes,473.0,37.6,II,Moderate,Yes
+VAL100068,76,Female,26.4,Never smoked,0.0,No,None,Not tested,No,0,Yes,No,No,4352,112.9,69.6,0.86,412.0,Yes,97,UIP Typical,No,Yes,No,347.0,,Not Applicable,Not Applicable,No
+VAL100025,62,Male,28.8,Ex-smoker,21.4,No,Livestock/Bird,Absent,Yes,0,No,Yes,No,2835,74.4,68.3,0.82,458.0,No,95,Indeterminate for UIP,No,Yes,Yes,962.0,29.5,Not Applicable,Not Applicable,No
+VAL100443,78,Female,25.3,Ex-smoker,7.3,No,None,Not tested,Yes,2,No,No,No,3722,93.0,15.0,0.74,170.0,Yes,94,UIP Probable,No,No,No,321.0,77.5,II,Moderate,Yes
+VAL100485,64,Male,28.3,Ex-smoker,21.0,No,Wood dust,Not tested,Yes,0,Yes,No,Yes,3531,87.0,82.1,0.87,408.0,No,96,Indeterminate for UIP,No,Yes,Yes,,,Not Applicable,Not Applicable,No
+VAL100595,63,Male,24.5,Never smoked,0.0,No,None,Absent,No,2,Yes,Yes,No,2604,62.8,55.5,0.8,294.0,Yes,93,UIP Typical,No,No,No,638.0,35.1,I,Mild,Yes
+VAL100127,61,Male,34.6,Ex-smoker,13.2,No,None,Not tested,No,2,No,Yes,No,4175,98.6,76.5,0.87,123.0,No,96,UIP Typical,No,No,No,736.0,53.8,I,Mild,Yes
+VAL100534,54,Male,28.3,Ex-smoker,48.7,No,Wood dust,Absent,No,3,No,No,Yes,3704,89.2,74.1,0.85,434.0,Yes,95,UIP Probable,No,No,No,830.0,60.6,I,Mild,Yes
+VAL100335,48,Female,25.3,Never smoked,0.0,No,None,Present,Yes,3,Yes,Yes,No,2817,70.3,27.3,0.83,265.0,No,97,Alternative Diagnosis,No,No,No,476.0,,II,Moderate,Yes
+VAL100578,58,Male,30.0,Never smoked,0.0,No,None,Absent,No,0,Yes,Yes,No,2841,63.5,64.4,0.84,497.0,No,97,Indeterminate for UIP,No,Yes,No,359.0,102.4,I,Mild,Yes
+VAL100179,52,Male,21.0,Ex-smoker,55.7,No,Metal dust,Absent,Yes,4,Yes,No,No,2785,69.7,39.2,0.83,220.0,Yes,98,UIP Probable,No,No,Yes,462.0,45.6,Not Applicable,Not Applicable,No
+VAL100411,72,Male,23.7,Currently smokes,14.2,No,Silica/Stone,Absent,Yes,1,Yes,Yes,Yes,2998,67.6,62.1,0.82,425.0,Yes,96,Indeterminate for UIP,No,No,No,325.0,59.7,Not Applicable,Not Applicable,No
+VAL100567,69,Male,22.8,Never smoked,0.0,No,None,Absent,No,3,Yes,No,No,2960,70.4,44.7,0.9,305.0,Yes,92,Indeterminate for UIP,No,No,No,1929.0,80.8,II,Moderate,Yes
+VAL100136,67,Male,27.5,Never smoked,0.0,No,None,Absent,No,1,No,Yes,No,2769,70.9,72.8,0.83,422.0,No,93,UIP Probable,Yes,No,No,710.0,151.8,II,Moderate,Yes
+VAL100224,79,Male,33.8,Never smoked,0.0,No,None,Present,Yes,2,Yes,Yes,No,2231,57.1,62.6,0.74,416.0,No,94,UIP Typical,No,No,Yes,938.0,65.0,II,Moderate,Yes
+VAL100588,67,Male,22.3,Ex-smoker,14.5,No,None,Absent,Yes,0,Yes,Yes,Yes,3452,85.5,63.5,0.81,570.0,No,91,Alternative Diagnosis,No,No,No,873.0,48.9,Not Applicable,Not Applicable,No
+VAL100554,68,Male,23.4,Ex-smoker,5.7,No,None,Present,Yes,2,No,Yes,No,3799,97.5,85.8,0.79,433.0,No,95,Alternative Diagnosis,No,Yes,No,521.0,49.7,I,Mild,Yes
+VAL100488,85,Male,28.4,Ex-smoker,18.4,No,None,Absent,Yes,3,No,Yes,No,3840,82.9,51.6,0.85,253.0,No,95,Indeterminate for UIP,No,No,No,860.0,45.8,II,Moderate,Yes
+VAL100094,72,Female,34.7,Ex-smoker,19.6,No,Livestock/Bird,Present,Yes,1,Yes,No,Yes,3720,89.7,51.3,0.77,,Yes,95,UIP Probable,Yes,Yes,No,511.0,65.5,Not Applicable,Not Applicable,No
+VAL100467,60,Male,24.3,Never smoked,0.0,No,None,Present,No,0,No,Yes,No,2513,61.4,75.9,0.91,411.0,No,93,UIP Typical,No,No,No,936.0,24.3,I,Mild,Yes
+VAL100070,69,Male,28.6,Ex-smoker,20.8,No,None,Absent,No,2,No,Yes,No,4836,108.0,34.6,0.79,115.0,No,97,UIP Typical,Yes,No,Yes,500.0,31.8,II,Moderate,Yes
+VAL100037,64,Male,25.4,Ex-smoker,11.5,No,None,Present,No,1,Yes,No,No,4060,93.2,80.0,0.72,462.0,Yes,93,UIP Probable,Yes,No,No,550.0,15.0,Not Applicable,Not Applicable,No
+VAL100297,73,Male,32.2,Never smoked,0.0,No,Metal dust,Present,Yes,4,Yes,Yes,No,2923,61.4,49.3,0.84,314.0,No,94,Alternative Diagnosis,No,No,No,870.0,54.3,Not Applicable,Not Applicable,No
+VAL100161,90,Female,29.0,Currently smokes,43.9,No,Livestock/Bird,Present,Yes,0,No,No,No,3071,73.0,48.7,0.79,613.0,No,91,UIP Typical,No,No,No,862.0,53.0,Not Applicable,Not Applicable,No
+VAL100363,54,Male,27.6,Ex-smoker,59.2,No,None,Not tested,No,2,Yes,Yes,No,4397,103.5,53.7,0.85,,No,96,Alternative Diagnosis,No,No,No,979.0,,Not Applicable,Not Applicable,No
+VAL100012,61,Male,28.4,Currently smokes,24.8,No,Livestock/Bird,Absent,No,1,Yes,Yes,No,2349,65.1,89.3,0.83,699.0,No,96,UIP Probable,No,No,No,413.0,30.1,I,Mild,Yes
+VAL100145,66,Female,26.2,Currently smokes,5.2,No,Wood dust,Absent,Yes,1,Yes,No,Yes,3313,73.1,88.9,0.76,435.0,No,94,UIP Probable,No,No,No,1195.0,99.8,Not Applicable,Not Applicable,No
+VAL100511,74,Male,30.1,Never smoked,0.0,Yes,None,Not tested,No,2,No,Yes,No,4051,91.2,72.7,0.86,161.0,Yes,97,UIP Typical,No,Yes,Yes,338.0,76.2,Not Applicable,Not Applicable,No
+VAL100128,69,Male,35.5,Never smoked,0.0,No,None,Not tested,No,4,No,No,Yes,5170,122.1,32.2,0.83,340.0,Yes,97,UIP Typical,No,No,Yes,655.0,57.0,Not Applicable,Not Applicable,No
+VAL100530,72,Male,26.4,Ex-smoker,7.9,Yes,Metal dust,Present,No,0,No,No,No,4745,108.7,100.0,0.79,547.0,No,95,UIP Typical,No,No,No,414.0,49.3,Not Applicable,Not Applicable,No
+VAL100303,61,Male,22.4,Never smoked,0.0,No,Metal dust,Absent,Yes,3,No,Yes,Yes,3387,80.3,68.2,0.8,214.0,No,96,UIP Typical,No,No,No,465.0,40.4,I,Mild,Yes
+VAL100010,75,Female,21.1,Ex-smoker,12.6,No,None,Present,Yes,0,Yes,Yes,No,3583,78.7,74.7,0.86,502.0,No,96,UIP Probable,No,No,No,786.0,71.2,Not Applicable,Not Applicable,No
+VAL100516,81,Male,31.8,Ex-smoker,37.5,No,Metal dust,Absent,No,2,Yes,No,No,3673,95.5,50.6,0.8,415.0,Yes,92,Indeterminate for UIP,Yes,Yes,No,1174.0,122.8,Not Applicable,Not Applicable,No
+VAL100177,74,Male,20.4,Never smoked,0.0,No,Metal dust,Not tested,Yes,4,Yes,No,No,3571,82.1,63.3,0.93,294.0,No,90,UIP Typical,Yes,Yes,No,540.0,80.4,I,Mild,Yes
+VAL100232,69,Female,27.4,Currently smokes,34.8,No,None,Absent,No,0,No,No,No,4025,94.2,63.7,0.79,418.0,No,92,UIP Probable,Yes,No,Yes,490.0,110.0,Not Applicable,Not Applicable,No
+VAL100211,65,Female,32.1,Ex-smoker,13.3,No,Metal dust,Absent,No,4,No,No,No,3649,80.4,51.1,0.88,224.0,No,93,UIP Typical,No,No,No,392.0,40.3,I,Mild,Yes
+VAL100129,68,Male,26.8,Ex-smoker,14.8,Yes,None,Absent,Yes,2,Yes,No,Yes,2763,64.5,65.9,0.85,362.0,No,96,Indeterminate for UIP,No,No,No,450.0,44.8,Not Applicable,Not Applicable,No
+VAL100144,53,Male,24.3,Ex-smoker,5.9,No,None,Absent,Yes,4,No,Yes,No,3763,81.7,65.2,0.89,319.0,Yes,98,UIP Probable,No,No,No,549.0,44.4,Not Applicable,Not Applicable,No
+VAL100242,58,Female,19.5,Ex-smoker,30.5,No,None,Absent,No,3,Yes,No,Yes,3692,82.3,62.3,0.77,258.0,No,95,UIP Probable,No,No,No,340.0,16.4,Not Applicable,Not Applicable,No
+VAL100008,73,Female,22.2,Ex-smoker,5.5,No,Silica/Stone,Absent,No,4,Yes,Yes,No,2630,62.2,51.7,0.77,294.0,No,98,UIP Typical,No,Yes,No,277.0,54.4,II,Moderate,Yes
+VAL100594,65,Male,25.7,Ex-smoker,31.4,No,Metal dust,Absent,No,3,Yes,Yes,Yes,1638,42.8,62.4,0.74,394.0,No,99,Alternative Diagnosis,No,No,No,374.0,,Not Applicable,Not Applicable,No
+VAL100299,64,Female,24.5,Never smoked,0.0,No,None,Present,Yes,0,Yes,Yes,Yes,3273,75.9,64.1,0.79,295.0,Yes,95,Indeterminate for UIP,No,Yes,No,614.0,87.2,Not Applicable,Not Applicable,No
+VAL100311,70,Female,24.9,Ex-smoker,12.4,Yes,None,Absent,Yes,1,No,Yes,No,2824,59.6,69.2,0.77,422.0,No,94,Indeterminate for UIP,No,No,No,771.0,33.5,Not Applicable,Not Applicable,No
+VAL100255,66,Male,29.5,Ex-smoker,12.6,No,None,Not tested,Yes,1,No,No,No,4153,82.5,64.0,0.72,314.0,No,94,Alternative Diagnosis,No,No,Yes,635.0,37.0,Not Applicable,Not Applicable,No
+VAL100582,80,Male,26.2,Ex-smoker,12.0,No,None,Present,Yes,2,Yes,Yes,No,3904,86.9,34.0,0.81,,Yes,96,UIP Probable,No,No,No,263.0,53.2,III,Severe,Yes
+VAL100464,75,Male,28.1,Ex-smoker,29.1,No,None,Absent,Yes,1,Yes,No,No,2756,64.2,64.2,0.74,421.0,Yes,94,Indeterminate for UIP,No,No,No,340.0,98.6,II,Moderate,Yes
+VAL100009,84,Male,20.7,Ex-smoker,9.3,No,None,Absent,Yes,4,Yes,Yes,No,4228,108.2,83.2,0.77,367.0,Yes,92,Alternative Diagnosis,No,No,No,1368.0,20.1,Not Applicable,Not Applicable,No
+VAL100157,86,Female,23.3,Ex-smoker,23.6,No,None,Absent,No,2,No,Yes,No,3139,79.3,53.2,0.76,320.0,Yes,93,UIP Probable,No,No,No,,57.6,Not Applicable,Not Applicable,No
+VAL100028,72,Female,31.2,Never smoked,0.0,Yes,Wood dust,Not tested,Yes,0,No,No,No,3721,81.7,40.1,0.82,366.0,Yes,95,Indeterminate for UIP,No,No,No,407.0,33.0,I,Mild,Yes
+VAL100267,69,Female,21.3,Ex-smoker,7.8,No,None,Present,No,4,Yes,Yes,No,3516,88.1,42.9,0.84,188.0,No,94,UIP Typical,No,No,No,227.0,91.5,I,Mild,Yes
+VAL100315,63,Female,26.4,Ex-smoker,39.2,No,None,Present,Yes,3,Yes,Yes,No,3416,78.9,73.0,0.82,274.0,No,100,UIP Typical,No,No,No,547.0,69.0,Not Applicable,Not Applicable,No
+VAL100065,64,Male,26.4,Never smoked,0.0,No,Silica/Stone,Absent,Yes,0,Yes,No,No,3774,85.2,38.0,0.83,,No,96,Indeterminate for UIP,No,No,No,714.0,169.2,I,Mild,Yes
+VAL100587,77,Female,33.9,Ex-smoker,1.6,Yes,None,Present,No,3,Yes,No,No,3915,84.2,57.4,0.84,375.0,Yes,99,UIP Probable,No,No,No,672.0,53.3,I,Mild,Yes
+VAL100256,84,Male,28.2,Ex-smoker,6.9,No,None,Absent,Yes,2,Yes,Yes,No,4173,79.0,62.0,0.81,,No,96,UIP Typical,No,No,No,1386.0,,Not Applicable,Not Applicable,No
+VAL100493,73,Female,26.9,Never smoked,0.0,Yes,None,Present,No,4,No,No,No,2694,61.5,58.3,0.82,317.0,,93,UIP Probable,No,No,No,622.0,,I,Mild,Yes
+VAL100154,78,Male,29.8,Ex-smoker,2.4,No,Wood dust,Absent,No,4,No,No,No,4223,88.0,41.2,0.74,267.0,No,95,Alternative Diagnosis,No,No,No,471.0,58.9,Not Applicable,Not Applicable,No
+VAL100049,58,Female,27.9,Ex-smoker,9.4,Yes,Wood dust,Absent,Yes,4,Yes,Yes,No,2777,63.4,57.2,0.87,253.0,Yes,96,UIP Typical,No,No,Yes,328.0,33.2,I,Mild,Yes
+VAL100209,59,Male,30.2,Ex-smoker,15.4,Yes,Metal dust,Present,Yes,1,No,Yes,No,2882,63.4,58.3,0.72,220.0,Yes,99,Indeterminate for UIP,No,No,No,859.0,45.0,Not Applicable,Not Applicable,No
+VAL100522,65,Female,24.8,Ex-smoker,15.7,No,None,Not tested,Yes,3,No,Yes,No,2237,54.9,74.8,0.73,376.0,No,95,Alternative Diagnosis,No,No,Yes,667.0,33.0,Not Applicable,Not Applicable,No
+VAL100288,71,Female,29.6,Currently smokes,26.3,Yes,Metal dust,Not tested,No,3,No,No,No,2882,72.1,58.4,0.93,391.0,No,95,Indeterminate for UIP,No,No,Yes,437.0,115.1,I,Mild,Yes
+VAL100002,83,Female,24.0,Ex-smoker,12.4,No,Metal dust,Present,No,4,Yes,Yes,No,3002,79.4,54.4,0.79,524.0,No,92,UIP Probable,No,No,No,228.0,73.9,Not Applicable,Not Applicable,No
+VAL100342,57,Male,35.0,Ex-smoker,28.2,Yes,None,Absent,No,0,No,No,No,4375,98.4,32.7,0.78,302.0,No,93,UIP Typical,No,No,No,214.0,213.4,Not Applicable,Not Applicable,No
+VAL100270,66,Female,30.8,Ex-smoker,12.6,No,None,Present,No,4,No,Yes,No,3987,93.3,50.5,0.76,326.0,Yes,95,UIP Typical,No,No,Yes,,128.1,I,Mild,Yes
+VAL100266,80,Male,24.5,Never smoked,0.0,No,None,Absent,Yes,1,No,Yes,No,2024,46.2,74.6,0.84,255.0,Yes,94,UIP Probable,No,No,No,,43.1,III,Severe,Yes
+VAL100537,59,Male,36.2,Ex-smoker,9.8,No,None,Absent,Yes,1,No,Yes,No,3832,91.9,32.5,0.79,353.0,No,90,UIP Typical,Yes,No,Yes,,66.2,II,Moderate,Yes
+VAL100453,49,Male,29.2,Never smoked,0.0,No,None,Absent,Yes,3,No,No,No,4440,95.1,17.9,0.92,330.0,No,95,UIP Typical,No,No,Yes,626.0,46.7,II,Moderate,Yes
+VAL100568,81,Male,24.8,Never smoked,0.0,No,None,Not tested,Yes,1,Yes,No,Yes,2608,64.7,62.2,0.86,535.0,No,93,UIP Typical,No,No,Yes,449.0,36.3,II,Moderate,Yes
+VAL100369,72,Male,26.7,Never smoked,0.0,Yes,None,Not tested,Yes,0,No,No,No,3089,67.4,62.8,0.78,538.0,Yes,95,Indeterminate for UIP,No,No,Yes,1236.0,59.3,II,Moderate,Yes
+VAL100096,62,Female,19.1,Ex-smoker,13.8,Yes,None,Present,No,3,Yes,No,No,2577,57.7,59.6,0.75,254.0,No,100,UIP Typical,No,No,Yes,767.0,,I,Mild,Yes
+VAL100571,73,Female,26.6,Ex-smoker,26.9,No,None,Present,Yes,0,Yes,Yes,No,2523,59.2,41.1,0.85,418.0,No,96,Alternative Diagnosis,No,No,No,1065.0,118.3,II,Moderate,Yes
+VAL100353,72,Female,23.8,Currently smokes,17.4,No,Wood dust,Absent,No,2,Yes,No,Yes,2756,72.5,45.5,0.78,444.0,,96,Indeterminate for UIP,Yes,Yes,Yes,,36.9,II,Moderate,Yes
+VAL100043,49,Female,28.8,Ex-smoker,29.7,No,None,Present,No,4,Yes,Yes,No,2274,55.6,84.7,0.78,175.0,Yes,94,UIP Typical,No,No,No,763.0,,I,Mild,Yes
+VAL100362,64,Female,23.9,Ex-smoker,9.1,No,Metal dust,Not tested,Yes,1,Yes,No,No,3141,79.1,53.0,0.89,511.0,No,95,UIP Probable,No,Yes,Yes,473.0,54.1,Not Applicable,Not Applicable,No
+VAL100438,64,Male,23.7,Ex-smoker,17.6,No,None,Present,No,2,Yes,No,No,3237,69.9,35.5,0.75,283.0,Yes,98,Alternative Diagnosis,Yes,No,No,765.0,84.6,II,Moderate,Yes
+VAL100592,73,Male,28.1,Ex-smoker,17.0,No,None,Absent,No,4,No,No,No,3306,77.7,79.0,0.77,290.0,Yes,92,UIP Probable,No,No,Yes,490.0,,I,Mild,Yes
+VAL100117,69,Male,27.6,Ex-smoker,45.9,No,Metal dust,Not tested,Yes,2,Yes,No,Yes,2354,58.3,79.5,0.85,340.0,No,91,UIP Probable,Yes,Yes,No,556.0,,II,Moderate,Yes
+VAL100425,77,Male,30.7,Ex-smoker,16.8,No,None,Present,No,2,Yes,No,No,2288,51.2,44.5,0.92,449.0,Yes,94,Indeterminate for UIP,No,No,No,431.0,43.1,Not Applicable,Not Applicable,No
+VAL100046,75,Male,29.2,Never smoked,0.0,No,None,Absent,Yes,3,Yes,Yes,No,2387,51.1,44.9,0.8,313.0,No,95,UIP Typical,No,No,Yes,543.0,47.3,Not Applicable,Not Applicable,No
+VAL100162,81,Female,27.6,Never smoked,0.0,No,None,Absent,Yes,0,Yes,No,No,2585,62.4,46.9,0.78,430.0,,94,UIP Typical,No,No,No,767.0,54.2,II,Moderate,Yes
+VAL100556,71,Male,33.7,Currently smokes,18.1,No,None,Absent,No,3,No,Yes,Yes,4365,118.9,70.3,0.88,227.0,No,99,Indeterminate for UIP,No,Yes,Yes,328.0,61.6,Not Applicable,Not Applicable,No
+VAL100118,66,Female,26.9,Ex-smoker,19.9,No,None,Present,Yes,2,No,No,Yes,3694,95.6,59.2,0.73,343.0,No,95,Alternative Diagnosis,No,Yes,Yes,945.0,39.3,Not Applicable,Not Applicable,No
+VAL100289,69,Male,21.7,Never smoked,0.0,No,Wood dust,Absent,No,0,No,No,Yes,2503,72.3,43.0,0.83,406.0,Yes,93,UIP Probable,No,No,No,1522.0,45.8,II,Moderate,Yes
+VAL100078,66,Male,19.9,Ex-smoker,48.4,No,None,Present,Yes,1,No,Yes,Yes,2655,73.1,68.9,0.85,459.0,No,97,Alternative Diagnosis,No,Yes,No,275.0,44.1,Not Applicable,Not Applicable,No
+VAL100527,78,Male,32.2,Never smoked,0.0,No,None,Present,No,2,Yes,No,Yes,1707,37.8,75.9,0.78,608.0,No,97,UIP Typical,Yes,No,No,,60.2,Not Applicable,Not Applicable,No
+VAL100390,66,Male,31.7,Never smoked,0.0,Yes,None,Absent,Yes,2,Yes,No,Yes,2508,55.4,69.4,0.8,293.0,No,94,Alternative Diagnosis,No,No,Yes,1294.0,61.8,Not Applicable,Not Applicable,No
+VAL100560,65,Male,28.3,Never smoked,0.0,No,None,Absent,Yes,2,Yes,No,Yes,4632,105.8,45.6,0.94,403.0,No,94,UIP Typical,Yes,No,No,417.0,95.8,Not Applicable,Not Applicable,No
+VAL100413,89,Male,27.0,Ex-smoker,13.1,No,None,Absent,No,4,No,Yes,Yes,3439,93.1,65.2,0.75,273.0,No,92,UIP Typical,Yes,No,No,536.0,25.2,Not Applicable,Not Applicable,No
+VAL100064,62,Male,26.4,Ex-smoker,6.1,No,None,Present,No,1,No,Yes,No,3438,77.8,55.6,0.84,336.0,Yes,98,UIP Probable,No,No,Yes,586.0,89.2,I,Mild,Yes
+VAL100339,43,Male,28.0,Ex-smoker,25.2,No,None,Absent,No,2,Yes,Yes,No,3343,78.1,63.2,0.72,565.0,Yes,94,Indeterminate for UIP,No,No,No,,100.0,Not Applicable,Not Applicable,No
+VAL100316,69,Male,30.7,Never smoked,0.0,No,Metal dust,Absent,Yes,4,No,No,No,3077,68.1,84.3,0.84,107.0,No,97,UIP Typical,Yes,No,No,896.0,31.3,I,Mild,Yes
+VAL100300,52,Male,32.7,Never smoked,0.0,No,None,Not tested,No,4,No,Yes,Yes,2727,70.5,74.4,0.86,354.0,No,94,Alternative Diagnosis,No,No,No,1131.0,81.3,Not Applicable,Not Applicable,No
+VAL100400,66,Male,32.9,Never smoked,0.0,Yes,None,Not tested,Yes,4,Yes,No,Yes,2880,70.4,36.6,0.8,334.0,Yes,94,UIP Typical,No,No,No,,66.8,II,Moderate,Yes
+VAL100231,72,Female,24.6,Never smoked,0.0,Yes,None,Not tested,Yes,2,No,Yes,No,2420,55.3,56.5,0.79,423.0,No,99,Alternative Diagnosis,No,No,Yes,738.0,60.0,Not Applicable,Not Applicable,No
+VAL100298,72,Male,25.4,Ex-smoker,24.0,No,Wood dust,Present,No,4,No,Yes,No,1791,42.6,71.7,0.85,,Yes,95,Alternative Diagnosis,No,No,No,354.0,46.2,II,Moderate,Yes
+VAL100187,74,Female,26.0,Ex-smoker,2.6,No,Metal dust,Absent,Yes,0,Yes,No,Yes,3844,83.9,77.0,0.74,530.0,Yes,90,UIP Typical,No,Yes,No,,98.9,I,Mild,Yes
+VAL100469,65,Male,25.3,Never smoked,0.0,No,None,Absent,Yes,0,Yes,Yes,Yes,4060,87.3,84.5,0.92,562.0,Yes,96,UIP Typical,No,No,No,730.0,61.6,Not Applicable,Not Applicable,No
+VAL100200,70,Male,23.6,Currently smokes,14.4,No,None,Absent,Yes,3,No,No,No,2745,72.5,34.8,0.82,427.0,No,96,UIP Typical,No,No,No,541.0,57.5,Not Applicable,Not Applicable,No
+VAL100421,66,Female,27.0,Currently smokes,31.8,No,Metal dust,Not tested,Yes,2,Yes,No,No,2828,66.8,72.0,0.81,542.0,,91,UIP Typical,No,No,Yes,672.0,55.7,Not Applicable,Not Applicable,No
+VAL100366,69,Female,28.6,Ex-smoker,45.1,No,None,Absent,No,3,Yes,No,No,3769,93.9,43.0,0.84,,No,94,Indeterminate for UIP,Yes,No,No,1117.0,35.5,Not Applicable,Not Applicable,No
+VAL100524,79,Female,28.3,Ex-smoker,23.8,No,None,Present,No,0,Yes,No,No,3406,77.1,76.8,0.76,382.0,Yes,98,UIP Typical,No,No,No,779.0,77.8,Not Applicable,Not Applicable,No
+VAL100397,71,Male,30.2,Never smoked,0.0,No,None,Present,No,1,Yes,No,No,3748,100.0,80.7,0.71,450.0,Yes,94,Indeterminate for UIP,No,No,Yes,401.0,,Not Applicable,Not Applicable,No
+VAL100122,68,Male,26.0,Ex-smoker,11.0,No,None,Present,Yes,1,No,Yes,No,1596,35.5,28.0,0.87,515.0,No,89,Indeterminate for UIP,Yes,No,No,404.0,223.3,Not Applicable,Not Applicable,No
+VAL100574,51,Female,17.9,Ex-smoker,14.1,Yes,None,Absent,No,4,No,No,No,3092,67.4,17.8,0.73,405.0,No,93,UIP Typical,No,No,Yes,702.0,50.1,II,Moderate,Yes
+VAL100248,69,Female,30.8,Currently smokes,8.8,No,Metal dust,Present,Yes,1,Yes,Yes,Yes,2150,50.5,33.7,0.78,400.0,No,93,UIP Typical,No,Yes,No,822.0,47.7,II,Moderate,Yes
+VAL100308,61,Male,30.3,Never smoked,0.0,No,None,Not tested,Yes,3,No,Yes,No,1577,38.2,75.6,0.82,493.0,No,97,Indeterminate for UIP,No,No,No,471.0,75.9,Not Applicable,Not Applicable,No
+VAL100570,61,Female,24.6,Never smoked,0.0,No,Metal dust,Absent,No,4,No,Yes,No,1965,48.0,60.3,0.83,495.0,Yes,96,Indeterminate for UIP,No,No,No,433.0,81.2,I,Mild,Yes
+VAL100364,68,Male,25.5,Never smoked,0.0,No,Metal dust,Present,Yes,2,Yes,Yes,No,2387,60.1,54.6,0.82,385.0,No,98,UIP Probable,No,No,No,641.0,36.4,Not Applicable,Not Applicable,No
+VAL100159,68,Male,21.2,Ex-smoker,8.1,Yes,Metal dust,Absent,No,2,Yes,Yes,No,3749,97.4,36.9,0.91,388.0,Yes,97,UIP Probable,No,No,No,418.0,41.7,Not Applicable,Not Applicable,No
+VAL100086,79,Male,19.4,Ex-smoker,4.3,No,Wood dust,Present,Yes,0,Yes,No,No,2079,59.2,45.1,0.83,357.0,Yes,97,UIP Typical,Yes,No,Yes,685.0,41.1,II,Moderate,Yes
+VAL100226,70,Male,33.6,Ex-smoker,13.5,No,None,Not tested,Yes,4,No,Yes,Yes,3497,81.8,71.5,0.71,492.0,No,96,UIP Probable,No,Yes,No,809.0,38.9,I,Mild,Yes
+VAL100377,45,Male,32.5,Ex-smoker,27.4,No,Livestock/Bird,Absent,No,0,Yes,Yes,Yes,3175,77.7,52.4,0.9,325.0,No,95,UIP Probable,No,No,Yes,585.0,43.0,I,Mild,Yes
+VAL100263,74,Male,18.7,Never smoked,0.0,No,Wood dust,Absent,No,4,Yes,Yes,No,2099,58.6,33.3,0.75,216.0,Yes,95,Alternative Diagnosis,No,Yes,Yes,864.0,25.0,Not Applicable,Not Applicable,No
+VAL100332,70,Female,30.3,Never smoked,0.0,Yes,Silica/Stone,Present,No,2,No,Yes,No,4544,104.1,38.6,0.7,603.0,Yes,96,UIP Typical,No,No,No,1074.0,42.7,I,Mild,Yes
+VAL100234,74,Male,32.0,Ex-smoker,37.1,No,Wood dust,Absent,No,2,No,No,No,3620,81.0,95.1,0.79,207.0,No,89,Indeterminate for UIP,Yes,No,No,674.0,33.8,Not Applicable,Not Applicable,No
+VAL100077,78,Female,26.5,Ex-smoker,14.1,No,None,Not tested,Yes,0,No,No,No,2741,74.4,67.6,0.76,415.0,No,94,Alternative Diagnosis,No,No,No,387.0,59.1,Not Applicable,Not Applicable,No
+VAL100476,72,Male,33.2,Currently smokes,17.2,No,None,Absent,No,0,No,Yes,No,4575,112.6,73.0,0.91,427.0,No,95,UIP Typical,No,No,Yes,1028.0,38.2,I,Mild,Yes
+VAL100526,77,Male,28.0,Never smoked,0.0,No,None,Absent,Yes,3,Yes,Yes,No,3498,78.8,34.8,0.74,413.0,No,92,UIP Probable,No,No,No,595.0,62.8,II,Moderate,Yes
+VAL100150,75,Female,25.0,Ex-smoker,24.3,No,None,Absent,Yes,3,Yes,No,No,4561,109.9,52.7,0.81,229.0,No,95,UIP Typical,No,No,Yes,345.0,77.8,I,Mild,Yes
+VAL100088,64,Male,34.8,Ex-smoker,5.6,No,Wood dust,Absent,No,3,No,No,No,2581,68.9,75.9,0.8,581.0,No,95,Indeterminate for UIP,No,No,No,563.0,44.7,Not Applicable,Not Applicable,No
+VAL100458,83,Male,31.5,Currently smokes,8.6,No,None,Present,Yes,1,No,Yes,No,1903,40.1,41.8,0.82,227.0,No,97,Indeterminate for UIP,No,No,No,509.0,125.3,III,Severe,Yes
+VAL100422,63,Female,22.1,Currently smokes,7.0,No,Silica/Stone,Absent,Yes,4,No,No,No,2501,70.5,44.3,0.9,93.0,No,95,Alternative Diagnosis,No,Yes,No,380.0,35.2,Not Applicable,Not Applicable,No
+VAL100600,51,Female,27.0,Ex-smoker,4.9,No,None,Present,No,3,No,Yes,No,2419,60.2,68.8,0.75,560.0,No,93,UIP Typical,No,No,No,463.0,53.8,I,Mild,Yes
+VAL100183,61,Female,25.9,Ex-smoker,4.6,No,Livestock/Bird,Not tested,No,1,Yes,No,No,3862,85.0,40.8,0.82,187.0,No,91,Indeterminate for UIP,Yes,No,No,781.0,38.4,Not Applicable,Not Applicable,No
+VAL100477,56,Male,27.3,Ex-smoker,45.2,No,Livestock/Bird,Absent,Yes,2,No,Yes,No,3759,89.5,60.4,0.81,241.0,No,93,Indeterminate for UIP,No,No,No,319.0,30.5,I,Mild,Yes
+VAL100106,63,Female,31.3,Never smoked,0.0,No,None,Absent,No,4,Yes,No,No,3810,90.9,47.5,0.89,422.0,No,94,UIP Typical,Yes,No,No,706.0,44.4,I,Mild,Yes
+VAL100333,51,Female,29.5,Ex-smoker,17.0,Yes,None,Absent,Yes,1,Yes,Yes,No,3193,81.6,58.3,0.75,430.0,Yes,95,UIP Probable,No,No,No,315.0,,Not Applicable,Not Applicable,No
+VAL100439,63,Male,34.2,Currently smokes,14.1,No,None,Present,Yes,1,No,No,No,2715,66.9,91.6,0.82,549.0,No,99,Indeterminate for UIP,No,No,No,300.0,16.8,I,Mild,Yes
+VAL100050,72,Female,27.9,Ex-smoker,8.4,Yes,Silica/Stone,Present,Yes,3,Yes,Yes,No,3635,82.7,60.4,0.85,214.0,No,93,Alternative Diagnosis,No,No,No,353.0,50.5,Not Applicable,Not Applicable,No
+VAL100336,55,Male,32.5,Ex-smoker,15.6,Yes,None,Present,No,1,Yes,Yes,No,2537,66.7,102.9,0.85,622.0,No,91,UIP Typical,No,No,No,379.0,49.2,I,Mild,Yes
+VAL100006,69,Male,26.9,Never smoked,0.0,Yes,Wood dust,Not tested,Yes,3,No,No,No,3772,80.8,88.4,0.77,305.0,No,94,UIP Probable,No,Yes,Yes,503.0,58.1,Not Applicable,Not Applicable,No
+VAL100018,64,Male,26.4,Ex-smoker,15.2,No,None,Not tested,No,3,No,No,No,2541,58.6,44.1,0.8,340.0,Yes,97,Alternative Diagnosis,No,No,No,817.0,62.6,Not Applicable,Not Applicable,No
+VAL100235,77,Male,31.0,Ex-smoker,1.5,No,Metal dust,Absent,No,3,No,No,Yes,3484,81.2,82.1,0.93,423.0,Yes,97,Indeterminate for UIP,No,No,Yes,660.0,186.3,Not Applicable,Not Applicable,No
+VAL100487,77,Female,33.2,Ex-smoker,18.5,No,None,Not tested,No,4,Yes,No,Yes,2597,72.7,53.3,0.81,285.0,No,100,UIP Typical,No,No,Yes,758.0,31.7,II,Moderate,Yes
+VAL100532,77,Male,30.6,Never smoked,0.0,No,None,Absent,Yes,0,No,Yes,No,2628,57.9,73.4,0.79,234.0,Yes,96,UIP Probable,No,No,Yes,735.0,44.5,Not Applicable,Not Applicable,No
+VAL100373,75,Male,23.7,Currently smokes,6.7,Yes,None,Present,No,1,No,No,No,3110,66.7,68.5,0.78,385.0,Yes,94,Indeterminate for UIP,No,No,No,444.0,29.6,Not Applicable,Not Applicable,No
+VAL100111,72,Male,28.0,Currently smokes,48.0,Yes,None,Absent,Yes,1,Yes,No,No,1547,43.4,73.2,0.8,306.0,No,95,Indeterminate for UIP,No,No,No,629.0,42.3,Not Applicable,Not Applicable,No
+VAL100107,89,Male,30.3,Ex-smoker,39.6,No,None,Present,Yes,2,Yes,No,No,3615,72.9,52.8,0.82,245.0,Yes,96,Alternative Diagnosis,No,No,No,324.0,23.9,Not Applicable,Not Applicable,No
+VAL100444,70,Male,25.7,Never smoked,0.0,No,None,Absent,No,2,Yes,Yes,No,1741,51.3,57.0,0.85,,No,95,UIP Typical,No,No,No,495.0,46.7,II,Moderate,Yes
+VAL100419,78,Female,29.6,Never smoked,0.0,No,None,Not tested,Yes,4,No,No,Yes,3445,85.8,51.3,0.73,196.0,No,95,UIP Typical,Yes,No,No,414.0,36.4,Not Applicable,Not Applicable,No
+VAL100489,52,Female,25.9,Ex-smoker,10.6,No,Silica/Stone,Absent,Yes,4,Yes,No,No,3467,93.5,72.0,0.83,289.0,Yes,94,UIP Probable,No,Yes,No,723.0,61.6,I,Mild,Yes
+VAL100135,61,Female,33.3,Never smoked,0.0,No,None,Not tested,Yes,1,No,Yes,No,3288,82.5,67.6,0.85,371.0,No,90,Indeterminate for UIP,No,No,No,630.0,34.6,Not Applicable,Not Applicable,No
+VAL100013,58,Male,24.9,Never smoked,0.0,No,None,Present,No,0,No,Yes,No,2192,59.3,84.6,0.8,504.0,No,94,Indeterminate for UIP,No,No,Yes,629.0,117.7,I,Mild,Yes
+VAL100227,76,Male,25.7,Ex-smoker,36.7,Yes,Silica/Stone,Absent,No,0,Yes,Yes,No,3666,95.1,53.6,0.8,280.0,Yes,95,Indeterminate for UIP,No,No,No,737.0,63.0,Not Applicable,Not Applicable,No
+VAL100215,88,Female,33.2,Ex-smoker,11.2,No,None,Absent,No,4,Yes,Yes,No,1853,41.6,55.1,0.88,196.0,No,94,UIP Probable,No,No,No,576.0,83.8,Not Applicable,Not Applicable,No
+VAL100191,50,Male,23.2,Never smoked,0.0,No,None,Absent,No,4,No,No,No,2678,73.9,53.0,0.84,174.0,No,97,UIP Probable,Yes,No,No,1173.0,65.6,II,Moderate,Yes
+VAL100253,68,Female,29.0,Currently smokes,14.3,No,Metal dust,Not tested,No,0,No,Yes,No,3376,76.0,46.8,0.87,506.0,No,95,UIP Probable,Yes,No,Yes,764.0,57.7,I,Mild,Yes
+VAL100321,69,Female,30.7,Ex-smoker,9.1,No,None,Present,Yes,1,No,No,No,2615,63.2,60.4,0.73,350.0,No,93,Alternative Diagnosis,Yes,Yes,Yes,529.0,61.3,Not Applicable,Not Applicable,No
+VAL100283,80,Female,21.8,Ex-smoker,17.8,Yes,None,Not tested,Yes,3,Yes,Yes,No,3628,82.0,32.5,0.83,,No,92,Alternative Diagnosis,No,No,Yes,697.0,97.8,Not Applicable,Not Applicable,No
+VAL100030,70,Male,24.0,Ex-smoker,4.0,No,Silica/Stone,Absent,Yes,1,No,No,Yes,4776,116.8,55.5,0.87,325.0,Yes,91,UIP Typical,No,No,Yes,335.0,23.1,I,Mild,Yes
+VAL100170,56,Female,32.5,Ex-smoker,12.7,Yes,None,Present,No,3,Yes,Yes,Yes,3034,73.1,36.7,0.85,399.0,No,95,UIP Probable,Yes,No,No,829.0,105.2,I,Mild,Yes
+VAL100490,55,Female,21.1,Never smoked,0.0,No,Metal dust,Present,Yes,4,No,No,No,4004,92.6,83.0,0.91,339.0,No,93,UIP Typical,No,Yes,No,419.0,32.5,I,Mild,Yes
+VAL100181,58,Male,22.9,Ex-smoker,21.8,No,Silica/Stone,Absent,No,1,Yes,Yes,No,4013,101.0,59.4,0.82,343.0,Yes,93,UIP Probable,No,No,No,446.0,,Not Applicable,Not Applicable,No
+VAL100101,60,Female,29.1,Never smoked,0.0,No,None,Not tested,No,2,Yes,No,Yes,4409,95.9,46.9,0.9,447.0,Yes,99,UIP Probable,Yes,No,No,587.0,59.4,Not Applicable,Not Applicable,No
+VAL100198,56,Male,22.7,Never smoked,0.0,No,None,Present,No,0,Yes,No,No,3352,72.3,48.5,0.85,308.0,Yes,89,Alternative Diagnosis,No,No,Yes,,66.6,Not Applicable,Not Applicable,No
+VAL100496,68,Male,33.1,Never smoked,0.0,Yes,None,Absent,Yes,4,No,Yes,No,4270,101.2,32.5,0.81,370.0,Yes,96,UIP Probable,No,Yes,No,585.0,51.9,II,Moderate,Yes
+VAL100577,78,Male,31.7,Ex-smoker,9.8,No,Metal dust,Not tested,Yes,1,Yes,Yes,Yes,4106,84.3,61.8,0.77,342.0,No,96,Indeterminate for UIP,No,No,No,581.0,92.3,I,Mild,Yes
+VAL100374,59,Male,29.7,Ex-smoker,14.9,No,None,Present,No,3,Yes,Yes,No,2136,57.1,49.2,0.81,496.0,Yes,95,UIP Typical,No,Yes,No,583.0,76.1,II,Moderate,Yes
+VAL100461,61,Male,21.9,Never smoked,0.0,No,None,Absent,Yes,3,Yes,No,No,1798,42.7,38.9,0.76,359.0,Yes,100,UIP Probable,No,Yes,Yes,317.0,37.5,II,Moderate,Yes
+VAL100414,77,Male,22.0,Ex-smoker,15.6,No,Metal dust,Not tested,No,1,Yes,Yes,No,3298,80.5,45.0,0.82,,No,95,Alternative Diagnosis,Yes,No,No,622.0,287.6,Not Applicable,Not Applicable,No
+VAL100132,64,Male,26.6,Ex-smoker,12.6,No,None,Present,Yes,2,No,Yes,No,2179,52.6,41.7,0.75,305.0,No,96,UIP Typical,No,No,Yes,1179.0,81.1,II,Moderate,Yes
+VAL100040,64,Male,28.3,Ex-smoker,33.2,No,Livestock/Bird,Absent,Yes,2,Yes,Yes,Yes,2648,62.6,95.5,0.78,482.0,Yes,93,UIP Typical,No,No,No,1051.0,72.3,I,Mild,Yes
+VAL100435,68,Male,30.4,Ex-smoker,25.7,No,Silica/Stone,Not tested,Yes,0,Yes,Yes,Yes,4311,100.4,55.7,0.95,392.0,Yes,95,Alternative Diagnosis,No,No,Yes,340.0,47.8,Not Applicable,Not Applicable,No
+VAL100216,55,Male,27.8,Currently smokes,9.4,No,None,Not tested,Yes,3,Yes,Yes,No,3790,87.2,34.7,0.86,421.0,Yes,92,Alternative Diagnosis,Yes,No,No,,73.5,Not Applicable,Not Applicable,No
+VAL100475,72,Female,30.9,Currently smokes,10.2,No,None,Absent,No,3,Yes,No,No,3401,71.3,75.8,0.76,377.0,Yes,100,UIP Typical,No,No,No,476.0,40.0,I,Mild,Yes
+VAL100457,76,Male,26.4,Ex-smoker,20.3,No,None,Not tested,Yes,2,No,Yes,Yes,3482,76.8,21.0,0.76,324.0,No,98,Alternative Diagnosis,No,Yes,Yes,448.0,99.0,II,Moderate,Yes
+VAL100261,70,Male,27.1,Never smoked,0.0,No,Wood dust,Present,No,4,Yes,No,Yes,3815,87.2,44.8,0.79,426.0,Yes,97,Alternative Diagnosis,No,No,Yes,,55.0,II,Moderate,Yes
+VAL100036,79,Male,29.7,Ex-smoker,9.8,No,Wood dust,Absent,No,1,No,No,Yes,4086,95.8,76.0,0.81,372.0,No,93,UIP Probable,Yes,No,No,584.0,32.2,Not Applicable,Not Applicable,No
+VAL100310,68,Male,32.4,Ex-smoker,26.2,No,None,Present,No,3,Yes,Yes,No,2757,68.3,45.8,0.77,275.0,Yes,94,UIP Typical,No,No,No,999.0,92.2,II,Moderate,Yes
+VAL100277,75,Male,33.9,Ex-smoker,2.7,No,Wood dust,Not tested,Yes,1,No,No,No,3322,81.3,61.6,0.85,545.0,No,95,Alternative Diagnosis,No,Yes,Yes,677.0,52.4,I,Mild,Yes
+VAL100394,56,Female,28.4,Never smoked,0.0,No,None,Absent,Yes,3,Yes,Yes,Yes,3361,85.0,39.2,0.88,243.0,Yes,95,UIP Typical,No,No,No,296.0,,Not Applicable,Not Applicable,No
+VAL100108,46,Male,33.6,Never smoked,0.0,No,None,Present,No,3,Yes,Yes,No,2936,68.9,43.2,0.8,375.0,Yes,98,UIP Probable,No,No,Yes,,78.3,Not Applicable,Not Applicable,No
+VAL100558,65,Male,34.0,Ex-smoker,13.7,No,Wood dust,Absent,Yes,1,Yes,Yes,Yes,4524,98.8,91.0,0.8,330.0,No,98,Alternative Diagnosis,No,No,No,809.0,49.6,Not Applicable,Not Applicable,No
+VAL100525,79,Male,29.8,Never smoked,0.0,Yes,None,Absent,No,0,No,Yes,No,3412,72.7,71.3,0.68,412.0,Yes,95,UIP Typical,No,Yes,No,527.0,42.8,II,Moderate,Yes
+VAL100048,67,Male,22.1,Currently smokes,10.0,No,None,Absent,No,0,No,Yes,No,2695,60.7,76.3,0.89,500.0,No,96,UIP Typical,Yes,No,No,734.0,32.9,Not Applicable,Not Applicable,No
+VAL100204,68,Male,27.0,Ex-smoker,16.6,No,Metal dust,Not tested,No,1,Yes,Yes,No,3272,72.1,55.1,0.77,386.0,No,99,UIP Probable,Yes,No,Yes,809.0,48.8,Not Applicable,Not Applicable,No
+VAL100022,55,Female,23.1,Ex-smoker,16.2,No,Wood dust,Present,No,2,Yes,No,No,2653,58.0,76.7,0.82,,No,99,UIP Typical,No,Yes,No,436.0,40.2,I,Mild,Yes
+VAL100403,73,Male,20.4,Ex-smoker,8.0,No,None,Absent,Yes,2,No,Yes,No,2942,71.5,36.7,0.7,194.0,Yes,94,Alternative Diagnosis,No,No,Yes,421.0,38.7,Not Applicable,Not Applicable,No
+VAL100084,70,Male,26.3,Ex-smoker,8.2,No,Livestock/Bird,Absent,No,3,Yes,Yes,No,2629,74.1,47.0,0.81,288.0,No,96,UIP Typical,No,No,Yes,988.0,,II,Moderate,Yes
+VAL100131,73,Female,40.0,Ex-smoker,3.1,No,Metal dust,Present,Yes,1,Yes,Yes,Yes,1972,52.6,46.5,0.74,225.0,Yes,97,Alternative Diagnosis,No,No,Yes,,110.6,Not Applicable,Not Applicable,No
+VAL100416,74,Male,26.3,Ex-smoker,48.8,No,Livestock/Bird,Absent,No,3,Yes,Yes,No,1840,46.5,59.1,0.73,421.0,Yes,97,UIP Probable,No,Yes,No,,62.7,II,Moderate,Yes
+VAL100287,60,Male,30.9,Never smoked,0.0,No,Wood dust,Absent,Yes,4,No,Yes,Yes,4742,98.5,68.2,0.79,302.0,Yes,96,UIP Typical,Yes,No,Yes,450.0,33.8,I,Mild,Yes
+VAL100124,61,Male,25.0,Ex-smoker,57.6,No,None,Not tested,Yes,0,Yes,Yes,Yes,3384,70.2,56.9,0.84,312.0,No,97,UIP Probable,No,Yes,Yes,601.0,56.5,I,Mild,Yes
+VAL100034,83,Female,24.2,Never smoked,0.0,No,Wood dust,Absent,Yes,0,No,No,No,3543,85.4,63.9,0.85,573.0,Yes,95,Alternative Diagnosis,No,No,No,339.0,30.0,Not Applicable,Not Applicable,No
+VAL100517,66,Female,33.0,Ex-smoker,5.9,No,None,Present,No,1,Yes,Yes,No,3279,81.6,67.0,0.76,419.0,No,95,UIP Probable,No,No,Yes,582.0,77.4,I,Mild,Yes
+VAL100020,61,Female,37.7,Currently smokes,12.0,No,Wood dust,Not tested,Yes,2,Yes,Yes,No,3559,80.2,85.6,0.86,,No,93,Alternative Diagnosis,No,Yes,No,369.0,156.8,Not Applicable,Not Applicable,No
+VAL100548,66,Male,27.6,Ex-smoker,7.9,No,Silica/Stone,Not tested,No,2,Yes,Yes,Yes,1558,48.7,67.0,0.82,419.0,No,100,Alternative Diagnosis,No,No,No,411.0,74.1,II,Moderate,Yes
+VAL100220,64,Female,36.2,Never smoked,0.0,No,Metal dust,Absent,Yes,4,No,No,Yes,2815,70.6,47.8,0.92,258.0,No,93,Indeterminate for UIP,No,No,No,905.0,108.1,I,Mild,Yes
+VAL100482,74,Female,32.2,Never smoked,0.0,No,Wood dust,Absent,Yes,2,Yes,Yes,No,2804,68.8,70.0,0.84,441.0,No,93,UIP Typical,Yes,No,No,990.0,33.6,I,Mild,Yes
+VAL100357,76,Male,28.7,Currently smokes,19.1,No,None,Present,No,0,No,No,Yes,3428,74.1,65.5,0.77,375.0,No,99,UIP Typical,No,No,No,241.0,49.4,II,Moderate,Yes
+VAL100225,66,Female,37.3,Currently smokes,22.2,No,Metal dust,Present,No,3,Yes,Yes,No,2600,67.2,54.6,0.89,441.0,No,96,UIP Typical,Yes,No,No,362.0,109.8,Not Applicable,Not Applicable,No
+VAL100093,68,Male,25.1,Never smoked,0.0,Yes,Metal dust,Absent,No,3,Yes,No,No,2831,73.5,64.7,0.92,403.0,Yes,98,UIP Typical,No,No,No,677.0,21.5,Not Applicable,Not Applicable,No
+VAL100152,77,Male,28.5,Currently smokes,7.2,No,Wood dust,Absent,Yes,1,Yes,No,No,2649,63.9,53.3,0.79,441.0,Yes,93,UIP Probable,No,No,No,403.0,39.1,Not Applicable,Not Applicable,No
+VAL100583,81,Male,25.2,Ex-smoker,18.8,No,None,Absent,Yes,2,Yes,Yes,No,3961,96.1,58.8,0.73,199.0,,94,Indeterminate for UIP,No,No,No,452.0,33.1,Not Applicable,Not Applicable,No
+VAL100318,59,Male,28.1,Never smoked,0.0,No,None,Present,No,1,Yes,Yes,Yes,2049,48.2,75.4,0.83,407.0,Yes,98,UIP Typical,Yes,No,No,1677.0,93.8,II,Moderate,Yes
+VAL100449,66,Male,32.9,Ex-smoker,7.4,No,None,Absent,No,0,Yes,Yes,No,3208,81.6,51.9,0.87,367.0,No,95,UIP Typical,No,No,No,1054.0,,II,Moderate,Yes
+VAL100523,72,Female,24.9,Ex-smoker,10.7,No,Wood dust,Absent,No,1,Yes,Yes,No,4282,94.7,101.4,0.83,599.0,No,98,UIP Probable,No,No,Yes,429.0,39.1,Not Applicable,Not Applicable,No
+VAL100280,95,Female,22.5,Currently smokes,13.7,No,Wood dust,Absent,Yes,0,Yes,No,No,3148,71.2,68.4,0.84,553.0,No,96,UIP Typical,No,Yes,No,304.0,,II,Moderate,Yes
+VAL100350,78,Female,22.6,Never smoked,0.0,No,Wood dust,Not tested,Yes,4,Yes,No,No,2592,59.2,64.3,0.76,356.0,,96,Alternative Diagnosis,Yes,No,Yes,538.0,46.1,Not Applicable,Not Applicable,No
+VAL100375,61,Male,30.4,Ex-smoker,31.1,No,None,Absent,Yes,4,Yes,No,No,2622,68.9,78.9,0.76,224.0,Yes,96,UIP Probable,No,No,No,503.0,15.0,Not Applicable,Not Applicable,No
+VAL100401,78,Male,27.1,Ex-smoker,36.7,No,None,Absent,No,1,Yes,No,No,2161,59.3,34.9,0.81,303.0,Yes,95,Alternative Diagnosis,No,No,No,783.0,74.5,Not Applicable,Not Applicable,No
+VAL100258,78,Female,28.7,Ex-smoker,10.9,No,None,Present,No,2,No,Yes,No,2098,49.2,61.7,0.8,317.0,No,96,UIP Typical,No,No,No,,69.8,II,Moderate,Yes
+VAL100073,86,Male,35.0,Ex-smoker,60.3,No,Metal dust,Present,No,3,Yes,Yes,Yes,1616,38.7,57.9,0.91,323.0,No,89,Indeterminate for UIP,No,Yes,No,454.0,31.7,III,Severe,Yes
+VAL100196,59,Female,30.2,Ex-smoker,2.6,No,Wood dust,Present,Yes,3,No,Yes,No,3592,79.3,81.0,0.83,420.0,Yes,96,UIP Probable,No,No,No,1039.0,35.7,I,Mild,Yes
+VAL100484,74,Female,27.5,Ex-smoker,9.0,No,Wood dust,Absent,Yes,1,Yes,Yes,No,3184,76.4,31.1,0.89,476.0,Yes,100,UIP Typical,No,No,No,853.0,39.4,II,Moderate,Yes
+VAL100138,65,Male,36.0,Never smoked,0.0,No,Silica/Stone,Present,Yes,0,Yes,No,No,2809,64.6,63.4,0.92,374.0,No,98,Indeterminate for UIP,No,No,No,366.0,128.7,Not Applicable,Not Applicable,No
+VAL100495,77,Male,32.2,Never smoked,0.0,No,Metal dust,Not tested,No,4,Yes,No,No,3193,76.8,67.3,0.75,442.0,No,94,UIP Probable,No,No,Yes,549.0,47.0,I,Mild,Yes
+VAL100551,69,Male,30.8,Never smoked,0.0,No,None,Absent,No,0,No,No,Yes,2743,73.1,59.4,0.88,573.0,No,99,UIP Typical,Yes,No,No,,33.2,II,Moderate,Yes
+VAL100463,64,Male,18.1,Ex-smoker,7.1,Yes,Wood dust,Present,Yes,2,No,Yes,No,3028,70.2,43.2,0.81,253.0,No,95,Indeterminate for UIP,No,No,No,973.0,,II,Moderate,Yes
+VAL100202,53,Female,27.4,Ex-smoker,19.3,No,Silica/Stone,Not tested,No,4,No,No,No,4498,93.3,56.8,0.84,262.0,Yes,96,Alternative Diagnosis,No,No,Yes,,104.9,Not Applicable,Not Applicable,No
+VAL100313,71,Female,21.9,Ex-smoker,10.1,No,None,Absent,Yes,2,Yes,No,Yes,3967,92.7,48.3,0.84,263.0,No,94,Indeterminate for UIP,No,Yes,No,719.0,34.0,Not Applicable,Not Applicable,No
+VAL100291,67,Male,23.7,Never smoked,0.0,Yes,Metal dust,Absent,No,3,Yes,No,No,2811,61.6,15.0,0.82,350.0,Yes,93,UIP Typical,Yes,No,No,474.0,67.4,Not Applicable,Not Applicable,No
+VAL100190,85,Female,30.9,Ex-smoker,21.7,No,Wood dust,Absent,No,0,No,No,No,2503,58.4,58.1,0.86,355.0,Yes,94,Alternative Diagnosis,No,No,No,,51.1,Not Applicable,Not Applicable,No
+VAL100113,64,Female,21.0,Ex-smoker,3.3,Yes,None,Not tested,Yes,2,Yes,No,No,2582,71.0,67.4,0.81,390.0,Yes,95,Alternative Diagnosis,No,Yes,Yes,549.0,35.9,Not Applicable,Not Applicable,No
+VAL100184,73,Male,19.1,Ex-smoker,21.7,No,None,Present,No,3,Yes,Yes,No,2812,69.7,61.4,0.82,247.0,Yes,97,Indeterminate for UIP,No,No,No,202.0,34.0,II,Moderate,Yes
+VAL100153,62,Female,31.7,Ex-smoker,37.6,No,Silica/Stone,Absent,No,2,Yes,No,No,2642,64.9,71.7,0.86,323.0,Yes,93,Alternative Diagnosis,No,No,No,591.0,70.3,Not Applicable,Not Applicable,No
+VAL100326,70,Female,27.7,Never smoked,0.0,No,Metal dust,Absent,No,4,Yes,Yes,No,2356,55.9,72.3,0.74,353.0,No,96,Indeterminate for UIP,No,No,No,600.0,94.5,Not Applicable,Not Applicable,No
+VAL100045,58,Male,26.9,Ex-smoker,23.3,No,Wood dust,Absent,Yes,1,Yes,Yes,No,3405,84.7,45.2,0.71,,Yes,98,UIP Probable,No,No,No,211.0,28.0,Not Applicable,Not Applicable,No
+VAL100445,68,Female,27.1,Never smoked,0.0,No,None,Not tested,No,2,Yes,No,No,3115,72.8,74.1,0.95,328.0,,99,UIP Probable,No,No,No,377.0,99.3,Not Applicable,Not Applicable,No
+VAL100007,76,Female,27.3,Ex-smoker,57.6,No,None,Present,Yes,1,No,Yes,Yes,3210,72.4,74.2,0.84,509.0,No,99,UIP Typical,No,No,No,329.0,64.3,I,Mild,Yes
+VAL100251,63,Male,30.4,Ex-smoker,16.8,No,None,Absent,No,0,No,Yes,No,3679,97.7,42.9,0.68,446.0,Yes,100,Indeterminate for UIP,No,No,Yes,531.0,40.6,I,Mild,Yes
+VAL100076,74,Female,24.9,Ex-smoker,7.8,No,None,Present,Yes,0,Yes,Yes,Yes,2465,56.3,73.7,0.83,278.0,Yes,94,UIP Probable,No,No,No,599.0,49.7,Not Applicable,Not Applicable,No
+VAL100513,48,Female,29.5,Ex-smoker,26.2,No,None,Not tested,Yes,4,No,Yes,No,2283,50.3,72.5,0.78,412.0,No,94,Alternative Diagnosis,No,No,Yes,626.0,66.3,Not Applicable,Not Applicable,No
+VAL100392,66,Female,26.7,Ex-smoker,15.9,No,None,Present,Yes,3,Yes,No,No,1962,54.7,61.4,0.86,373.0,Yes,94,UIP Probable,No,No,No,1166.0,56.9,I,Mild,Yes
+VAL100433,56,Male,31.1,Ex-smoker,14.1,No,None,Absent,Yes,2,Yes,No,No,2834,73.3,94.4,0.78,433.0,Yes,93,UIP Typical,No,No,No,1139.0,46.0,I,Mild,Yes
+VAL100069,72,Female,35.2,Never smoked,0.0,Yes,Silica/Stone,Absent,Yes,0,Yes,No,No,3736,89.2,67.8,0.81,243.0,Yes,95,UIP Typical,No,No,No,,66.3,I,Mild,Yes
+VAL100168,76,Female,30.2,Ex-smoker,14.5,No,None,Absent,Yes,4,No,No,No,3975,91.9,44.4,0.85,188.0,No,95,Alternative Diagnosis,Yes,No,No,425.0,59.1,Not Applicable,Not Applicable,No
+VAL100555,53,Male,31.6,Ex-smoker,12.4,No,None,Not tested,No,2,Yes,No,No,1882,45.0,77.9,0.83,465.0,Yes,99,UIP Probable,No,No,No,539.0,79.3,II,Moderate,Yes
+VAL100367,74,Female,34.5,Never smoked,0.0,No,Wood dust,Present,Yes,3,Yes,Yes,No,3518,73.6,72.9,0.72,264.0,No,94,Indeterminate for UIP,No,Yes,Yes,408.0,25.4,Not Applicable,Not Applicable,No
+VAL100346,79,Male,27.0,Never smoked,0.0,No,None,Absent,No,1,No,Yes,No,2457,59.8,40.5,0.81,527.0,Yes,95,Indeterminate for UIP,No,No,No,1981.0,34.0,II,Moderate,Yes
+VAL100585,66,Male,29.9,Never smoked,0.0,Yes,None,Not tested,No,3,Yes,No,Yes,3585,85.5,44.6,0.84,252.0,No,97,UIP Typical,No,Yes,Yes,464.0,63.5,II,Moderate,Yes
+VAL100536,62,Male,24.8,Ex-smoker,15.9,No,Silica/Stone,Present,No,3,No,No,No,2500,53.7,59.0,0.82,101.0,Yes,99,UIP Typical,Yes,No,No,1240.0,48.3,I,Mild,Yes
+VAL100399,64,Female,25.0,Ex-smoker,23.8,No,None,Present,Yes,0,Yes,No,Yes,4079,103.0,18.7,0.83,543.0,Yes,95,UIP Typical,No,Yes,Yes,535.0,102.3,I,Mild,Yes
+VAL100186,70,Female,25.1,Ex-smoker,10.4,No,Wood dust,Not tested,No,4,Yes,Yes,No,2874,65.2,72.0,0.79,425.0,Yes,97,UIP Probable,Yes,No,No,806.0,34.1,I,Mild,Yes
+VAL100349,61,Male,25.4,Ex-smoker,8.9,No,None,Present,Yes,1,No,No,No,2065,49.8,59.4,0.84,212.0,,92,Alternative Diagnosis,No,No,No,397.0,34.4,Not Applicable,Not Applicable,No
+VAL100212,55,Male,37.5,Ex-smoker,11.0,No,None,Absent,No,2,Yes,Yes,Yes,2990,73.3,48.9,0.72,292.0,Yes,89,UIP Probable,No,No,Yes,312.0,56.9,II,Moderate,Yes
+VAL100580,68,Male,30.8,Ex-smoker,33.9,No,None,Present,No,0,Yes,No,No,2551,59.4,47.1,0.84,330.0,No,91,Indeterminate for UIP,No,No,No,675.0,38.4,Not Applicable,Not Applicable,No
+VAL100503,72,Female,17.0,Never smoked,0.0,No,None,Absent,Yes,2,No,Yes,Yes,4159,80.9,64.2,0.79,255.0,No,96,UIP Typical,No,No,No,1086.0,70.0,Not Applicable,Not Applicable,No
+VAL100538,75,Female,30.0,Currently smokes,15.5,No,None,Absent,Yes,3,Yes,Yes,Yes,2315,59.8,85.0,0.72,423.0,No,92,Alternative Diagnosis,No,No,No,395.0,29.5,Not Applicable,Not Applicable,No
+VAL100197,58,Female,18.1,Never smoked,0.0,No,Wood dust,Present,Yes,3,Yes,Yes,Yes,2448,65.1,56.3,0.69,339.0,No,94,Alternative Diagnosis,Yes,No,Yes,214.0,23.3,I,Mild,Yes
+VAL100176,51,Male,26.8,Never smoked,0.0,Yes,None,Present,Yes,4,No,Yes,No,2423,62.5,95.9,0.73,305.0,No,96,UIP Probable,No,No,No,665.0,142.6,I,Mild,Yes

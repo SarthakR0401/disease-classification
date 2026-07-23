@@ -338,7 +338,7 @@ def _predict_ipf(patient):
     scaler = joblib.load(scaler_path)
     encoders = joblib.load(encoders_path)
     
-    features = ['Weeks', 'FVC', 'Percent', 'Age', 'Sex', 'SmokingStatus']
+    features = ['FVC', 'Percent', 'Age', 'Sex', 'SmokingStatus']
     
     # Calculate estimated FVC percent if missing
     fvc_val = patient.get("fvc", 2000.0)
@@ -356,7 +356,6 @@ def _predict_ipf(patient):
     smoke_encoded = encoders["SmokingStatus"].transform([smoke_std])[0]
     
     data_dict = {
-        'Weeks': int(patient.get("weeks", 0)),
         'FVC': float(fvc_val),
         'Percent': float(percent_val),
         'Age': float(patient.get("age", 65.0)),

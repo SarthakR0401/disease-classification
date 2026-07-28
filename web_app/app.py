@@ -7,7 +7,8 @@ from flask import Flask, request, jsonify, render_template
 app = Flask(__name__, template_folder="templates", static_folder="static")
 
 # --- Load Models & Utilities ---
-MODELS_DIR = r"d:\Esparse Matrix\saved_models"
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+MODELS_DIR = os.path.join(BASE_DIR, "saved_models")
 
 # 1. Asthma
 asthma_model = joblib.load(os.path.join(MODELS_DIR, "asthma_rf_model.pkl"))

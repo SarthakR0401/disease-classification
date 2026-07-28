@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clinical Diagnostic Portal - Disease Routing Module</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Chart.js for visualizations -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="app-header">
+            <div class="logo-area">
+                <span class="logo-icon">🫁</span>
+                <h1>Pulmonary Clinical Portal</h1>
+            </div>
+            <div class="badge">Disease Routing Module (DRM) - Stage 1</div>
+        </header>
+
+        <!-- Main Workspace -->
+        <main class="app-main">
+            <!-- Left Side: Patient Intake Form -->
+            <section class="form-section card">
+                <div class="card-header">
+                    <h2>Patient Intake Form</h2>
+                    <p class="subtitle">Fill in patient observations, spirometry, and test results</p>
+                </div>
+                
+                <form id="intake-form" oninput="updateRoutingStatus()">
+                    <!-- Category: Demographics & Core -->
+                    <div class="form-group-section">
+                        <h3>1. Demographics & Core Vitals</h3>
+                        <div class="grid-2">
+                            <div class="input-container">
+                                <label for="age">Age (years)</label>
+                                <input type="number" id="age" name="age" min="1" max="120" placeholder="e.g. 65">
+                            </div>
+                            <div class="input-container">
+                                <label for="gender">Gender</label>
+                                <select id="gender" name="gender">
+                                    <option value="" selected disabled>Select...</option>
+                                    <option value="Male">Male</option>
+                                    <option value="Female">Female</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="grid-2">
+                            <div class="input-container">
+                                <label for="smoking">Smoking History</label>
+                                <select id="smoking" name="smoking">
+                                    <option value="" selected disabled>Select...</option>
+                                    <option value="Never smoked">Never Smoked</option>
+                                    <option value="Ex-smoker">Ex-smoker</option>
+                                    <option value="Currently smokes">Currently Smokes</option>
+                                </select>
+                            </div>
+                            <div class="input-container">
+                                <label for="bmi">BMI (kg/m²)</label>
+                                <input type="number" id="bmi" name="bmi" step="0.1" min="10" max="60" placeholder="e.g. 24.5">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Category: Symptoms -->
+                    <div class="form-group-section">
+                        <h3>2. Clinical Symptoms</h3>
+                        <div class="grid-2">
+                            <div class="input-container">
+                                <label for="wheezing">Wheezing</label>
+                                <select id="wheezing" name="wheezing">
+                                    <option value="" selected disabled>Select...</option>
+                                    <option value="Yes">Yes</option>
+                                    <option value="No">No</option>
+                                </select>
+                            </div>
+                            <div class="input-container">
+                                <label for="allergies">History of Allergies</label>
+                                <select id="allergies" name="allergies">
+                                    <option value="" selected disabled>Select...</option>
+                                    <option value="Yes">Yes</option>
+                                    <option value="No">No</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="grid-2">
+                            <div class="input-container">
+                                <label for="cough">Cough Severity</label>
+                                <select id="cough" name="cough">
+                                    <option value="" selected disabled>Select...</option>
+                                    <option value="No Cough">No Cough</option>
+                                    <option value="Dry">Dry</option>
+                                    <option value="Wet">Wet</option>
+                                    <option value="Bloody">Bloody</option>
+                                </select>
+                            </div>
+                            <div class="input-container">
+                                <label for="chest_pain">Chest Pain</label>
+                                <select id="chest_pain" name="chest_pain">
+                                    <option value="" selected disabled>Select...</option>
+                                    <option value="No Chest Pain">No Chest Pain</option>
+                                    <option value="Mild">Mild</option>
+                                    <option value="Moderate">Moderate</option>
+                                    <option value="Severe">Severe</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="grid-2">
+                            <div class="input-container">
+                                <label for="resp_symptom">Shortness of Breath</label>
+                                <select id="resp_symptom" name="resp_symptom">
+                                    <option value="" selected disabled>Select...</option>
+                                    <option value="None">None</option>
+                                    <option value="Mild">Mild</option>
+                                    <option value="Moderate">Moderate</option>
+                                    <option value="Severe">Severe</option>
+                                </select>
+                            </div>
+                            <div class="input-container">
+                                <label for="dyspnea">Dyspnea Level (mMRC)</label>
+                                <select id="dyspnea" name="dyspnea">
+                                    <option value="" selected disabled>Select...</option>
+                                    <option value="mMRC0">mMRC 0 (Only with vigorous exercise)</option>
+                                    <option value="mMRC1">mMRC 1 (Hurry on level/walking up hill)</option>
+                                    <option value="mMRC2">mMRC 2 (Walk slower than people of same age)</option>
+                                    <option value="mMRC3">mMRC 3 (Stop for breath after 100m)</option>
+                                    <option value="mMRC4">mMRC 4 (Too breathless to leave house)</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Category: Labs & Spirometry -->
+                    <div class="form-group-section">
+                        <h3>3. Spirometry & Vitals</h3>
+                        <div class="grid-3">
+                            <div class="input-container">
+                                <label for="fev1">FEV₁ (L)</label>
+                                <input type="number" id="fev1" name="fev1" step="0.01" min="0.1" max="8.0" placeholder="Liters">
+                            </div>
+                            <div class="input-container">
+                                <label for="fvc">FVC (mL)</label>
+                                <input type="number" id="fvc" name="fvc" step="1" min="500" max="8000" placeholder="e.g. 3500">
+                            </div>
+                            <div class="input-container">
+                                <label for="fvc_percent">FVC predicted %</label>
+                                <input type="number" id="fvc_percent" name="fvc_percent" step="0.1" min="10" max="150" placeholder="e.g. 80.5">
+                            </div>
+                        </div>
+                        <div class="grid-3">
+                            <div class="input-container">
+                                <label for="fever">Fever Status</label>
+                                <select id="fever" name="fever">
+                                    <option value="" selected disabled>Select...</option>
+                                    <option value="No Fever">No Fever</option>
+                                    <option value="Low">Low</option>
+                                    <option value="Moderate">Moderate</option>
+                                    <option value="High">High</option>
+                                </select>
+                            </div>
+                            <div class="input-container">
+                                <label for="wbc_count">WBC Count (/μL)</label>
+                                <input type="number" id="wbc_count" name="wbc_count" step="1" min="1000" max="30000" placeholder="e.g. 8500">
+                            </div>
+                            <div class="input-container">
+                                <label for="spo2">Oxygen Saturation (%)</label>
+                                <input type="number" id="spo2" name="spo2" step="1" min="50" max="100" placeholder="e.g. 96">
+                            </div>
+                        </div>
+                        <div class="grid-2">
+                            <div class="input-container">
+                                <label for="resp_rate">Respiration Rate</label>
+                                <input type="number" id="resp_rate" name="resp_rate" step="1" min="5" max="60" placeholder="breaths/min">
+                            </div>
+                            <div class="input-container">
+                                <label for="heart_rate">Heart Rate</label>
+                                <input type="number" id="heart_rate" name="heart_rate" step="1" min="30" max="220" placeholder="bpm">
+                            </div>
+                        </div>
+                    </div>
+
+                    <button type="button" id="btn-predict" class="btn-primary" onclick="runPredictions()" disabled>Analyze Patient Case</button>
+                </form>
+            </section>
+
+            <!-- Right Side: Disease Routing & Diagnostics -->
+            <section class="diagnostic-section">
+                <!-- Real-time Routing Status -->
+                <div class="routing-card card">
+                    <div class="card-header">
+                        <h2>Disease Routing Status (DRM)</h2>
+                        <p class="subtitle">Real-time mapping of data eligibility to downstream models</p>
+                    </div>
+                    <div id="routing-indicators" class="indicators-container">
+                        <!-- Filled dynamically by JavaScript -->
+                    </div>
+                </div>
+
+                <!-- Active Triage Predictions -->
+                <div class="results-card card">
+                    <div class="card-header">
+                        <h2>Diagnostic Predictions & Probability Analysis</h2>
+                        <p class="subtitle">Activated model inference outputs compared side-by-side</p>
+                    </div>
+                    <div id="no-active-predictions" class="no-prediction-message">
+                        <span class="pulse-icon">🔍</span>
+                        <p>Complete the required fields for at least one disease model to run diagnostic analysis.</p>
+                    </div>
+                    <div id="prediction-results" class="predictions-results-grid hide">
+                        <!-- Filled dynamically by JavaScript -->
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    
+    <script src="/static/app.js"></script>
+</body>
+</html>

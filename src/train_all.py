@@ -7,7 +7,7 @@ import sys
 sys.stdout.reconfigure(encoding='utf-8')
 
 notebooks_dir = r"d:\Esparse Matrix\IPYNB"
-notebooks = ["ASTHMA.ipynb", "COPD.ipynb", "IPF.ipynb", "Pneumonia.ipynb"]
+notebooks = ["ASTHMA.ipynb", "COPD.ipynb", "IPF.ipynb", "PNEUMONIA.ipynb"]
 
 print("Starting programmatic notebook training run...\n")
 

@@ -1,0 +1,417 @@
+/* Theme Design System */
+:root {
+    --bg-primary: #090d16;
+    --bg-secondary: rgba(30, 41, 59, 0.45);
+    --border-color: rgba(255, 255, 255, 0.06);
+    --text-primary: #f8fafc;
+    --text-secondary: #94a3b8;
+    
+    /* Disease Color Tokens */
+    --asthma-color: #3b82f6;     /* Bright Blue */
+    --ipf-color: #f59e0b;        /* Amber */
+    --pneumonia-color: #10b981;  /* Emerald */
+    --copd-color: #8b5cf6;       /* Violet */
+    --neutral-glow: #06b6d4;     /* Cyan */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    min-height: 100vh;
+    overflow-x: hidden;
+    padding: 1.5rem;
+}
+
+.app-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+/* Header */
+.app-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    backdrop-filter: blur(12px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+}
+
+.logo-area {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.logo-icon {
+    font-size: 1.75rem;
+    filter: drop-shadow(0 0 8px var(--neutral-glow));
+}
+
+.app-header h1 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    letter-spacing: -0.025em;
+    background: linear-gradient(135deg, #ffffff 50%, var(--neutral-glow) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.badge {
+    padding: 0.4rem 0.8rem;
+    background: rgba(6, 182, 212, 0.1);
+    border: 1px solid rgba(6, 182, 212, 0.2);
+    border-radius: 9999px;
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: var(--neutral-glow);
+    text-shadow: 0 0 10px rgba(6, 182, 212, 0.2);
+}
+
+/* Workspace Layout */
+.app-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    align-items: start;
+}
+
+@media (max-width: 1024px) {
+    .app-main {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Card Styling */
+.card {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+    backdrop-filter: blur(16px);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    padding: 1.75rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.card-header h2 {
+    font-size: 1.15rem;
+    font-weight: 600;
+    letter-spacing: -0.015em;
+}
+
+.subtitle {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    margin-top: 0.25rem;
+}
+
+/* Forms layout */
+.form-group-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 1.25rem;
+}
+
+.form-group-section:last-of-type {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.form-group-section h3 {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--neutral-glow);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+label {
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: var(--text-secondary);
+}
+
+input, select {
+    background: rgba(15, 23, 42, 0.6);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 0.6rem 0.8rem;
+    color: var(--text-primary);
+    font-size: 0.85rem;
+    outline: none;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+input:focus, select:focus {
+    border-color: rgba(6, 182, 212, 0.4);
+    box-shadow: 0 0 10px rgba(6, 182, 212, 0.1);
+}
+
+select option {
+    background-color: #0f172a;
+    color: var(--text-primary);
+}
+
+/* Main Triage Button */
+.btn-primary {
+    background: linear-gradient(135deg, #06b6d4 0%, #0284c7 100%);
+    border: none;
+    border-radius: 10px;
+    padding: 0.85rem;
+    color: white;
+    font-weight: 600;
+    font-size: 0.95rem;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(6, 182, 212, 0.2);
+    transition: transform 0.2s ease, opacity 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn-primary:hover:not(:disabled) {
+    transform: translateY(-1px);
+    box-shadow: 0 6px 20px rgba(6, 182, 212, 0.35);
+}
+
+.btn-primary:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+    box-shadow: none;
+}
+
+/* Diagnostic Section */
+.diagnostic-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+/* Routing Status Indicators */
+.indicators-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.85rem;
+}
+
+.routing-indicator-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.85rem 1.15rem;
+    background: rgba(15, 23, 42, 0.4);
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+}
+
+.routing-indicator-row.active {
+    border-color: rgba(16, 185, 129, 0.15);
+    background: rgba(16, 185, 129, 0.03);
+}
+
+.disease-info {
+    display: flex;
+    align-items: center;
+    gap: 0.65rem;
+}
+
+.badge-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: var(--text-secondary);
+}
+
+.routing-indicator-row.active .badge-dot.asthma { background-color: var(--asthma-color); box-shadow: 0 0 10px var(--asthma-color); }
+.routing-indicator-row.active .badge-dot.ipf { background-color: var(--ipf-color); box-shadow: 0 0 10px var(--ipf-color); }
+.routing-indicator-row.active .badge-dot.pneumonia { background-color: var(--pneumonia-color); box-shadow: 0 0 10px var(--pneumonia-color); }
+.routing-indicator-row.active .badge-dot.copd { background-color: var(--copd-color); box-shadow: 0 0 10px var(--copd-color); }
+
+.disease-info h4 {
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.routing-status {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+.routing-status.active {
+    color: #10b981;
+}
+
+.routing-status.inactive {
+    color: var(--text-secondary);
+}
+
+/* Missing parameters tooltips/descriptions */
+.missing-params {
+    font-size: 0.7rem;
+    color: var(--text-secondary);
+    margin-top: 0.25rem;
+    display: block;
+}
+
+/* Prediction Results */
+.no-prediction-message {
+    padding: 4rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+}
+
+.pulse-icon {
+    font-size: 2.25rem;
+    animation: breathing 2.5s infinite ease-in-out;
+}
+
+@keyframes breathing {
+    0%, 100% { transform: scale(1); filter: drop-shadow(0 0 0px rgba(6,182,212,0)); }
+    50% { transform: scale(1.1); filter: drop-shadow(0 0 12px rgba(6,182,212,0.2)); }
+}
+
+.predictions-results-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+}
+
+.predictions-results-grid.hide {
+    display: none;
+}
+
+.result-card-item {
+    background: rgba(15, 23, 42, 0.45);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.85rem;
+}
+
+.result-card-item.asthma { border-left: 4px solid var(--asthma-color); }
+.result-card-item.ipf { border-left: 4px solid var(--ipf-color); }
+.result-card-item.pneumonia { border-left: 4px solid var(--pneumonia-color); }
+.result-card-item.copd { border-left: 4px solid var(--copd-color); }
+
+.result-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.result-header h3 {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.result-header h3.asthma { color: var(--asthma-color); }
+.result-header h3.ipf { color: var(--ipf-color); }
+.result-header h3.pneumonia { color: var(--pneumonia-color); }
+.result-header h3.copd { color: var(--copd-color); }
+
+.confidence-val {
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: var(--text-secondary);
+}
+
+.result-display-area {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+}
+
+.class-output {
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+}
+
+.prob-meter-container {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 9999px;
+    height: 8px;
+    overflow: hidden;
+    margin-top: 0.25rem;
+}
+
+.prob-meter-fill {
+    height: 100%;
+    border-radius: 9999px;
+    width: 0%;
+    transition: width 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.prob-meter-fill.asthma { background: var(--asthma-color); box-shadow: 0 0 8px var(--asthma-color); }
+.prob-meter-fill.ipf { background: var(--ipf-color); box-shadow: 0 0 8px var(--ipf-color); }
+.prob-meter-fill.pneumonia { background: var(--pneumonia-color); box-shadow: 0 0 8px var(--pneumonia-color); }
+.prob-meter-fill.copd { background: var(--copd-color); box-shadow: 0 0 8px var(--copd-color); }
+
+/* Multiple output classes breakdown (for multiclass) */
+.multiclass-breakdown {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    font-size: 0.75rem;
+    border-top: 1px solid var(--border-color);
+    padding-top: 0.65rem;
+    margin-top: 0.25rem;
+}
+
+.breakdown-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--text-secondary);
+}
+
+.breakdown-row.highest {
+    color: var(--text-primary);
+    font-weight: 500;
+}

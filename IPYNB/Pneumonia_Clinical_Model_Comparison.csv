@@ -1,9 +1,0 @@
-Rank,Model,Accuracy (%),Precision,Recall,F1 Score,ROC-AUC
-1,Decision Tree,97.89,0.9799,0.9789,0.9789,0.9835
-2,Random Forest,97.89,0.9799,0.9789,0.9789,0.9818
-3,Extra Trees,97.89,0.9799,0.9789,0.9789,0.9824
-4,XGBoost,97.89,0.9799,0.9789,0.9789,0.9825
-5,CatBoost,97.89,0.9799,0.9789,0.9789,0.9839
-6,LightGBM,97.89,0.9799,0.9789,0.9789,0.9837
-7,Logistic Regression,97.18,0.9723,0.9718,0.9719,0.9683
-8,Support Vector Machine,96.48,0.965,0.9648,0.9648,0.9883

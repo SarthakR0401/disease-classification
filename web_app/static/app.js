@@ -68,12 +68,14 @@ function updateRoutingStatus() {
         row.className = `routing-indicator-row ${ind.active ? 'active' : ''}`;
         
         row.innerHTML = `
-            <div class="disease-info">
-                <span class="badge-dot ${ind.colorClass}"></span>
-                <h4>${ind.name} Dispatcher</h4>
-            </div>
-            <div class="routing-status ${ind.active ? 'active' : 'inactive'}">
-                ${ind.active ? 'Active ✅' : 'Inactive ✖'}
+            <div class="routing-row-top">
+                <div class="disease-info">
+                    <span class="badge-dot ${ind.colorClass}"></span>
+                    <h4>${ind.name} Dispatcher</h4>
+                </div>
+                <div class="routing-status ${ind.active ? 'active' : 'inactive'}">
+                    ${ind.active ? 'Active ✅' : 'Inactive ✖'}
+                </div>
             </div>
         `;
         

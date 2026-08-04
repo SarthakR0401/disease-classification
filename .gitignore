@@ -1,0 +1,20 @@
+# Python standard ignores
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+
+# Research and training assets (not needed for deployment)
+Clinical_4_Diseases_25.ipynb
+Clinical_4_Diseases_ML_Report_Updated.docx
+Datasets/
+IPF_Validation_Dataset.csv
+IPYNB/
+The Disease Routing Module.docx
+catboost_info/
+four_diseases_confusion_matrices.png
+src/

@@ -1,0 +1,13 @@
+Datasets/
+IPYNB/
+catboost_info/
+src/
+*.ipynb
+*.docx
+*.csv
+*.png
+__pycache__/
+*.pyc
+.venv/
+venv/
+.git/

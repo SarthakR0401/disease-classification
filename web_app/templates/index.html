@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,13 +11,14 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <link rel="stylesheet" href="/static/style.css">
 </head>
+
 <body>
     <div class="app-container">
         <!-- Header -->
         <header class="app-header">
             <div class="logo-area">
                 <span class="logo-icon">🫁</span>
-                <h1>Pulmonary Clinical Portal</h1>
+                <h1>Clinical Portal</h1>
             </div>
             <div class="badge">Disease Routing Module (DRM) - Stage 1</div>
         </header>
@@ -29,7 +31,7 @@
                     <h2>Patient Intake Form</h2>
                     <p class="subtitle">Fill in patient observations, spirometry, and test results</p>
                 </div>
-                
+
                 <form id="intake-form" oninput="updateRoutingStatus()">
                     <!-- Category: Demographics & Core -->
                     <div class="form-group-section">
@@ -60,7 +62,8 @@
                             </div>
                             <div class="input-container">
                                 <label for="bmi">BMI (kg/m²)</label>
-                                <input type="number" id="bmi" name="bmi" step="0.1" min="10" max="60" placeholder="e.g. 24.5">
+                                <input type="number" id="bmi" name="bmi" step="0.1" min="10" max="60"
+                                    placeholder="e.g. 24.5">
                             </div>
                         </div>
                     </div>
@@ -139,15 +142,18 @@
                         <div class="grid-3">
                             <div class="input-container">
                                 <label for="fev1">FEV₁ (L)</label>
-                                <input type="number" id="fev1" name="fev1" step="0.01" min="0.1" max="8.0" placeholder="Liters">
+                                <input type="number" id="fev1" name="fev1" step="0.01" min="0.1" max="8.0"
+                                    placeholder="Liters">
                             </div>
                             <div class="input-container">
                                 <label for="fvc">FVC (mL)</label>
-                                <input type="number" id="fvc" name="fvc" step="1" min="500" max="8000" placeholder="e.g. 3500">
+                                <input type="number" id="fvc" name="fvc" step="1" min="500" max="8000"
+                                    placeholder="e.g. 3500">
                             </div>
                             <div class="input-container">
                                 <label for="fvc_percent">FVC predicted %</label>
-                                <input type="number" id="fvc_percent" name="fvc_percent" step="0.1" min="10" max="150" placeholder="e.g. 80.5">
+                                <input type="number" id="fvc_percent" name="fvc_percent" step="0.1" min="10" max="150"
+                                    placeholder="e.g. 80.5">
                             </div>
                         </div>
                         <div class="grid-3">
@@ -163,26 +169,31 @@
                             </div>
                             <div class="input-container">
                                 <label for="wbc_count">WBC Count (/μL)</label>
-                                <input type="number" id="wbc_count" name="wbc_count" step="1" min="1000" max="30000" placeholder="e.g. 8500">
+                                <input type="number" id="wbc_count" name="wbc_count" step="1" min="1000" max="30000"
+                                    placeholder="e.g. 8500">
                             </div>
                             <div class="input-container">
                                 <label for="spo2">Oxygen Saturation (%)</label>
-                                <input type="number" id="spo2" name="spo2" step="1" min="50" max="100" placeholder="e.g. 96">
+                                <input type="number" id="spo2" name="spo2" step="1" min="50" max="100"
+                                    placeholder="e.g. 96">
                             </div>
                         </div>
                         <div class="grid-2">
                             <div class="input-container">
                                 <label for="resp_rate">Respiration Rate</label>
-                                <input type="number" id="resp_rate" name="resp_rate" step="1" min="5" max="60" placeholder="breaths/min">
+                                <input type="number" id="resp_rate" name="resp_rate" step="1" min="5" max="60"
+                                    placeholder="breaths/min">
                             </div>
                             <div class="input-container">
                                 <label for="heart_rate">Heart Rate</label>
-                                <input type="number" id="heart_rate" name="heart_rate" step="1" min="30" max="220" placeholder="bpm">
+                                <input type="number" id="heart_rate" name="heart_rate" step="1" min="30" max="220"
+                                    placeholder="bpm">
                             </div>
                         </div>
                     </div>
 
-                    <button type="button" id="btn-predict" class="btn-primary" onclick="runPredictions()" disabled>Analyze Patient Case</button>
+                    <button type="button" id="btn-predict" class="btn-primary" onclick="runPredictions()"
+                        disabled>Analyze Patient Case</button>
                 </form>
             </section>
 
@@ -216,7 +227,8 @@
             </section>
         </main>
     </div>
-    
+
     <script src="/static/app.js"></script>
 </body>
+
 </html>

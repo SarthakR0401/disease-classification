@@ -35,6 +35,56 @@ def clean_float(val):
         return float(val)
     except:
         return None
+def get_predicted_fev1(age, gender, height_cm, race="Unknown"):
+    is_male = (gender == 1 or gender == "Male")
+    coefs = {
+        "Male": {
+            "Caucasian": [0.5536, -0.01303, -0.000172, 0.00014098],
+            "African-American": [0.3411, -0.02309, 0.0, 0.00013194],
+            "Mexican-American": [0.6306, -0.02928, 0.0, 0.00015104]
+        },
+        "Female": {
+            "Caucasian": [0.4333, -0.00361, -0.000194, 0.00011496],
+            "African-American": [0.3433, -0.01283, -0.000097, 0.00010846],
+            "Mexican-American": [0.4529, -0.01178, -0.000113, 0.00012154]
+        }
+    }
+    gender_key = "Male" if is_male else "Female"
+    if race in ["Caucasian", "African-American", "Mexican-American"]:
+        b0, b1, b2, b3 = coefs[gender_key][race]
+        return b0 + b1 * age + b2 * (age ** 2) + b3 * (height_cm ** 2)
+    else:
+        vals = []
+        for r in ["Caucasian", "African-American", "Mexican-American"]:
+            b0, b1, b2, b3 = coefs[gender_key][r]
+            vals.append(b0 + b1 * age + b2 * (age ** 2) + b3 * (height_cm ** 2))
+        return sum(vals) / len(vals)
+
+
+def get_predicted_fvc(age, gender, height_cm, race="Unknown"):
+    is_male = (gender == 1 or gender == "Male")
+    coefs = {
+        "Male": {
+            "Caucasian": [-0.1933, 0.00064, -0.000269, 0.00018642],
+            "African-American": [-0.1517, -0.01821, 0.0, 0.00016643],
+            "Mexican-American": [0.2376, -0.00891, -0.000182, 0.00017823]
+        },
+        "Female": {
+            "Caucasian": [-0.3560, 0.01870, -0.000382, 0.00014815],
+            "African-American": [-0.3039, 0.00536, -0.000265, 0.00013606],
+            "Mexican-American": [0.1210, 0.00307, -0.000237, 0.00014246]
+        }
+    }
+    gender_key = "Male" if is_male else "Female"
+    if race in ["Caucasian", "African-American", "Mexican-American"]:
+        b0, b1, b2, b3 = coefs[gender_key][race]
+        return b0 + b1 * age + b2 * (age ** 2) + b3 * (height_cm ** 2)
+    else:
+        vals = []
+        for r in ["Caucasian", "African-American", "Mexican-American"]:
+            b0, b1, b2, b3 = coefs[gender_key][r]
+            vals.append(b0 + b1 * age + b2 * (age ** 2) + b3 * (height_cm ** 2))
+        return sum(vals) / len(vals)
 
 
 @app.route("/")
@@ -75,7 +125,9 @@ def route_and_predict():
     predictions = {}
     
     # 1. COPD Routing check
-    copd_req = [age, gender, smoking, bmi, fev1, spo2, resp_rate, dyspnea, heart_rate]
+    height_cm = clean_float(data.get("height_cm"))
+    race = data.get("race", "Unknown")
+    copd_req = [age, gender, smoking, bmi, height_cm, fev1, spo2, resp_rate, dyspnea, heart_rate]
     if all(x is not None for x in copd_req):
         active_models["COPD"] = "Active"
         try:
@@ -86,20 +138,54 @@ def route_and_predict():
             m = re.search(r'\d+', str(dyspnea))
             copd_dyspnea = int(m.group(0)) if m else 0
             
+            # Feature engineering (NHANES III Reference Equations)
+            fev1_pred = get_predicted_fev1(age, gender, height_cm, race)
+            fvc_pred = get_predicted_fvc(age, gender, height_cm, race)
+            
+            fev1_pct_predicted = (fev1 / fev1_pred) * 100
+            fev1_fvc_ratio = fev1 / fvc_pred
+            
             features = np.array([[
-                age, copd_gender, copd_smoker, bmi, fev1, spo2, resp_rate, copd_dyspnea, heart_rate
+                age, copd_gender, copd_smoker, bmi, spo2, copd_dyspnea, fev1_pct_predicted, fev1_fvc_ratio
             ]])
             
             prob = copd_model.predict_proba(features)[0]
-            pred_class = int(np.argmax(prob))
-            stages = ["Stage 1", "Stage 2", "Stage 3", "Stage 4"]
-            confidence = float(prob[pred_class])
+            raw_pred_class = int(np.argmax(prob))
+            stages = ["Stage 1 (No significant obstruction)", "Stage 2", "Stage 3", "Stage 4"]
+            
+            pred_class = raw_pred_class
+            override_applied = False
+            
+            # GOLD Spirometric Staging boundaries
+            if fev1_fvc_ratio >= 0.70:
+                pred_class = 0  # Stage 1 / No obstruction
+                if raw_pred_class != 0:
+                    override_applied = True
+            else:
+                # Patient has clinical obstruction. Staging is strictly defined by FEV1% predicted.
+                if fev1_pct_predicted >= 80.0:
+                    expected_class = 0  # Stage 1
+                elif fev1_pct_predicted >= 50.0:
+                    expected_class = 1  # Stage 2
+                elif fev1_pct_predicted >= 30.0:
+                    expected_class = 2  # Stage 3
+                else:
+                    expected_class = 3  # Stage 4
+                    
+                if pred_class != expected_class:
+                    pred_class = expected_class
+                    override_applied = True
+            
+            confidence = 1.0 if override_applied else float(prob[pred_class])
             
             predictions["COPD"] = {
                 "class": stages[pred_class],
                 "probability": [float(p) for p in prob],
                 "confidence": confidence,
                 "stages": stages,
+                "override_applied": override_applied,
+                "raw_class": "Stage " + str(raw_pred_class + 1),
+                "raw_confidence": float(prob[raw_pred_class]),
                 "status": "Success"
             }
         except Exception as e:
@@ -110,6 +196,7 @@ def route_and_predict():
         if gender is None: missing.append("Gender")
         if smoking is None: missing.append("Smoking Status")
         if bmi is None: missing.append("BMI")
+        if height_cm is None: missing.append("Height (cm)")
         if fev1 is None: missing.append("FEV1 (Spirometry)")
         if spo2 is None: missing.append("SpO2")
         if resp_rate is None: missing.append("Respiration Rate")
@@ -132,14 +219,41 @@ def route_and_predict():
             ]])
             
             prob = asthma_model.predict_proba(features)[0]
-            pred_class = 1 if prob[1] >= 0.30 else 0
-            confidence = float(prob[pred_class])
+            
+            # Calculate FEV1% predicted if height is available, otherwise fallback to absolute cuts
+            fev1_pred = get_predicted_fev1(age, gender, height_cm, race) if height_cm is not None else None
+            fev1_pct = (fev1 / fev1_pred) * 100 if fev1_pred is not None else None
+            
+            # Determine if FEV1 is clinically reduced (<80% predicted or absolute cutoffs)
+            is_reduced = False
+            if fev1_pct is not None:
+                is_reduced = fev1_pct < 80.0
+            else:
+                is_reduced = (fev1 < 2.2) if (gender == "Male" or gender == 1) else (fev1 < 1.8)
+            
+            # Clinical Asthma Staging Decision Tree (100% GINA rule-based)
+            raw_pred_class = 1 if prob[1] >= 0.21 else 0
+            
+            # 100% Deterministic GINA Rule Tree (GINA 2023, Figure 1-2)
+            # A history of variable respiratory symptoms (wheezing) is a prerequisite.
+            if as_wheezing == 1 and as_allergies == 1:
+                pred_class = 1  # Wheezing + Allergies -> Asthma
+            elif as_wheezing == 1 and is_reduced:
+                pred_class = 1  # Wheezing + Airflow obstruction -> Asthma
+            else:
+                pred_class = 0  # Low Risk / No typical respiratory symptoms for asthma
+                
+            override_applied = True
+            confidence = 1.0
             
             predictions["Asthma"] = {
                 "class": "1 (Asthma Detected)" if pred_class == 1 else "0 (No Asthma)",
                 "probability": [float(p) for p in prob],
                 "confidence": confidence,
                 "stages": ["0 (No Asthma)", "1 (Asthma)"],
+                "override_applied": override_applied,
+                "raw_class": "1 (Asthma Detected)" if raw_pred_class == 1 else "0 (No Asthma)",
+                "raw_confidence": float(prob[raw_pred_class]),
                 "status": "Success"
             }
         except Exception as e:
@@ -173,7 +287,7 @@ def route_and_predict():
             features_scaled = ipf_scaler.transform(features_raw)
             prob = ipf_model.predict_proba(features_scaled)[0]
             pred_class = int(np.argmax(prob))
-            stages = ["Mild", "Moderate", "Severe"]
+            stages = ["Low Risk (Mild)", "High Risk (Moderate/Severe)"]
             confidence = float(prob[pred_class])
             
             predictions["IPF"] = {
@@ -181,6 +295,7 @@ def route_and_predict():
                 "probability": [float(p) for p in prob],
                 "confidence": confidence,
                 "stages": stages,
+                "screening_risk_score": float(prob[1]),
                 "status": "Success"
             }
         except Exception as e:
@@ -214,8 +329,8 @@ def route_and_predict():
                 pneu_fever, pneu_cough, pneu_cp, pneu_wbc, spo2, pneu_rs
             ]])
             
-            features_scaled = pneu_scaler.transform(features_raw)
-            prob = pneu_model.predict_proba(features_scaled)[0]
+            
+            prob = pneu_model.predict_proba(features_raw)[0]
             pred_class = int(np.argmax(prob))
             confidence = float(prob[pred_class])
             

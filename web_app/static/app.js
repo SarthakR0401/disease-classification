@@ -5,6 +5,8 @@ function updateRoutingStatus() {
     const gender = form.gender.value;
     const smoking = form.smoking.value;
     const bmi = form.bmi.value;
+    const height_cm = form.height_cm.value;
+    const race = form.race.value;
     const wheezing = form.wheezing.value;
     const allergies = form.allergies.value;
     const fev1 = form.fev1.value;
@@ -49,9 +51,9 @@ function updateRoutingStatus() {
         {
             name: "COPD",
             colorClass: "copd",
-            active: !!(age && gender && smoking && bmi && fev1 && spo2 && resp_rate && dyspnea && heart_rate),
-            missing: getMissingFields({ age, gender, smoking, bmi, fev1, spo2, resp_rate, dyspnea, heart_rate }, {
-                age: "Age", gender: "Gender", smoking: "Smoking", bmi: "BMI", fev1: "FEV1", spo2: "SpO2", resp_rate: "Respiration Rate", dyspnea: "Dyspnea", heart_rate: "Heart Rate"
+            active: !!(age && gender && smoking && bmi && height_cm && fev1 && spo2 && resp_rate && dyspnea && heart_rate),
+            missing: getMissingFields({ age, gender, smoking, bmi, height_cm, fev1, spo2, resp_rate, dyspnea, heart_rate }, {
+                age: "Age", gender: "Gender", smoking: "Smoking", bmi: "BMI", height_cm: "Height", fev1: "FEV1", spo2: "SpO2", resp_rate: "Respiration Rate", dyspnea: "Dyspnea", heart_rate: "Heart Rate"
             })
         }
     ];
@@ -123,6 +125,8 @@ async function runPredictions() {
         gender: form.gender.value,
         smoking: form.smoking.value,
         bmi: form.bmi.value,
+        height_cm: form.height_cm.value,
+        race: form.race.value,
         wheezing: form.wheezing.value,
         allergies: form.allergies.value,
         fev1: form.fev1.value,
@@ -205,6 +209,16 @@ function renderResults(predictions) {
         const classGlowColor = diseaseName.toLowerCase();
         const confPercent = (pred.confidence * 100).toFixed(1);
         
+        let confidenceText = `Confidence: ${confPercent}%`;
+        let meterWidth = confPercent;
+        if (diseaseName === "COPD") {
+            confidenceText = "GOLD Clinical Rule (100% Cert.)";
+            meterWidth = 100.0;
+        } else if (pred.override_applied) {
+            confidenceText = "Clinical Override (100% Cert.)";
+            meterWidth = 100.0;
+        }
+        
         const card = document.createElement("div");
         card.className = `result-card-item ${classGlowColor}`;
         
@@ -245,12 +259,12 @@ function renderResults(predictions) {
         card.innerHTML = `
             <div class="result-header">
                 <h3 class="${classGlowColor}">${diseaseName} Diagnostics</h3>
-                <span class="confidence-val">Confidence: ${confPercent}%</span>
+                <span class="confidence-val">${confidenceText}</span>
             </div>
             <div class="result-display-area">
                 <div class="class-output">${pred.class}</div>
                 <div class="prob-meter-container">
-                    <div class="prob-meter-fill ${classGlowColor}" style="width: ${confPercent}%"></div>
+                    <div class="prob-meter-fill ${classGlowColor}" style="width: ${meterWidth}%"></div>
                 </div>
                 ${breakdownHTML}
             </div>

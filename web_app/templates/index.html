@@ -36,7 +36,7 @@
                     <!-- Category: Demographics & Core -->
                     <div class="form-group-section">
                         <h3>1. Demographics & Core Vitals</h3>
-                        <div class="grid-2">
+                        <div class="grid-3">
                             <div class="input-container">
                                 <label for="age">Age (years)</label>
                                 <input type="number" id="age" name="age" min="1" max="120" placeholder="e.g. 65">
@@ -49,8 +49,17 @@
                                     <option value="Female">Female</option>
                                 </select>
                             </div>
+                            <div class="input-container">
+                                <label for="race">Race/Ethnicity (Hankinson 1999)</label>
+                                <select id="race" name="race">
+                                    <option value="Unknown" selected>Other / Unknown (Race-Neutral Average)</option>
+                                    <option value="Caucasian">Caucasian</option>
+                                    <option value="African-American">African-American</option>
+                                    <option value="Mexican-American">Mexican-American</option>
+                                </select>
+                            </div>
                         </div>
-                        <div class="grid-2">
+                        <div class="grid-3">
                             <div class="input-container">
                                 <label for="smoking">Smoking History</label>
                                 <select id="smoking" name="smoking">
@@ -64,6 +73,11 @@
                                 <label for="bmi">BMI (kg/m²)</label>
                                 <input type="number" id="bmi" name="bmi" step="0.1" min="10" max="60"
                                     placeholder="e.g. 24.5">
+                            </div>
+                            <div class="input-container">
+                                <label for="height_cm">Height (cm)</label>
+                                <input type="number" id="height_cm" name="height_cm" step="1" min="100" max="250"
+                                    placeholder="e.g. 165">
                             </div>
                         </div>
                     </div>
@@ -151,7 +165,7 @@
                                     placeholder="e.g. 3500">
                             </div>
                             <div class="input-container">
-                                <label for="fvc_percent">FVC predicted %</label>
+                                <label for="fvc_percent">FVC predicted % (Required for IPF)</label>
                                 <input type="number" id="fvc_percent" name="fvc_percent" step="0.1" min="10" max="150"
                                     placeholder="e.g. 80.5">
                             </div>
